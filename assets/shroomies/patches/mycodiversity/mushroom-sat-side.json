@@ -1,0 +1,34 @@
+[
+    {
+        "file": "game:blocktypes/plant/mycodiversity-mushroom-side",
+        "op": "add",
+        "path": "/nutritionPropsByType",
+        "value": {
+            "*-redbeltedconk-*": {
+                "saturation": 65,
+                "health": -2,
+                "foodcategory": "Vegetable"
+            },
+            "*-artistsconk-*": {
+                "saturation": 65,
+                "health": -2,
+                "foodcategory": "Vegetable"
+            },
+            "*-turkeytail-*": {
+                "saturation": 65,
+                "health": -2,
+                "foodcategory": "Vegetable"
+            },
+            "*-westernvarnishedconk-*": {
+                "saturation": 65,
+                "health": -2,
+                "foodcategory": "Vegetable"
+            },
+            "*": {
+                "saturation": 80,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            }
+        }
+    }
+]

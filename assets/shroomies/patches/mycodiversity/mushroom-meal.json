@@ -1,0 +1,48 @@
+[
+    {
+        "file": "game:blocktypes/plant/mycodiversity-mushroom",
+        "op": "remove",
+        "path": "/attributes/nutritionPropsWhenInMeal/satiety"
+    },
+    {
+        "file": "game:blocktypes/plant/mycodiversity-mushroom",
+        "op": "add",
+        "path": "/attributes/nutritionPropsWhenInMeal",
+        "value": {
+            "satietyByType": {
+                    "*-aniseedfunnel-*": 90,
+                    "*-aspenbolete-*": 105,
+                    "*-birchbolete-*": 105,
+                    "*-blewit-*": 115,
+                    "*-candycap-*": 90,
+                    "*-coccora-*": 115,
+                    "*-desertshaggymane-*": 100,
+                    "*-destroyingangel-*": 85,
+                    "*-dyerspolypore-*": 90,
+                    "*-falseearthstar-*": 85,
+                    "*-flattoppedclubcoral-*": 90,
+                    "*-friedchickenmushroom-*": 105,
+                    "*-greenearthtongue-*": 75,
+                    "*-hawkwing-*": 105,
+                    "*-honeymushroom-*": 105,
+                    "*-matsutake-*": 135,
+                    "*-parasol-*": 130,
+                    "*-purplefairyclub-*": 85,
+                    "*-queenbolete-*": 135,
+                    "*-questionablestropharia-*": 90,
+                    "*-shaggymane-*": 105,
+                    "*-shrimpmushroom-*": 115,
+                    "*-slipperyjack-*": 105,
+                    "*-stinkhorn-*": 90,
+                    "*-sulfurtuft-*": 85,
+                    "*-winterchanterelle-*": 115,
+                    "*-yellowstainer-*": 85,
+                    "*-bluechanterelle-*": 120,
+                    "*-hedgehogmushroom-*": 120,
+                    "*-redramaria-*": 90,
+                    "*-yellowramaria-*": 90,
+                    "*-northernreddye-*": 75
+            }
+        }
+    }
+]

@@ -47,18 +47,19 @@
         "shadeTolerant": true,
         "nutritionPropsWhenInMeal": {
             "satietyByType": {
-                "*-funeralbell-*": 90,
-                "*-pinkbonnet-*": 110,
-                "*-beardedtooth-*": 120,
-                "*-chickenofthewoods-*": 140,
-                "*-dryadsaddle-*": 140,
-                "*-pinkoyster-*": 130,
-                "*-whiteoyster-*": 130,
-                "*-tinderhoof-*": 90,
-                "*-shiitake-*": 130,
-                "*-reishi-*": 120,
-                "*-deerear-*": 90,
-                "*-livermushroom-*": 120
+                "*-beardedtooth-*": 100,
+                "*-chickenofthewoods-*": 120,
+                "*-deerear-*": 75,
+                "*-dryadsaddle-*": 115,
+                "*-funeralbell-*": 75,
+                "*-livermushroom-*": 100,
+                "*-pinkbonnet-*": 90,
+                "*-pinkoyster-*": 105,
+                "*-reishi-*": 100,
+                "*-shiitake-*": 115,
+                "*-tinderhoof-*": 75,
+                "*-whiteoyster-*": 105
+
             },
             "foodcategory": "Vegetable",
             "healthByType": {
@@ -110,7 +111,7 @@
             "foodcategory": "Vegetable"
         },
         "*-shiitake-*": {
-            "saturation": 70,
+            "saturation": 75,
             "health": 0,
             "foodcategory": "Vegetable"
         },

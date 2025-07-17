@@ -1,0 +1,21 @@
+[
+    {
+        "file": "game:blocktypes/plant/mycodiversity-mushroom-side",
+        "op": "remove",
+        "path": "/attributes/nutritionPropsWhenInMeal/satiety"
+    },
+    {
+        "file": "game:blocktypes/plant/mycodiversity-mushroom-side",
+        "op": "add",
+        "path": "/attributes/nutritionPropsWhenInMeal",
+        "value": {
+            "satietyByType": {
+                "*-artistsconk-*": 100,
+                "*-beefsteakfungus-*": 120,
+                "*-redbeltedconk-*": 100,
+                "*-turkeytail-*": 100,
+                "*-westernvarnishedconk-*": 100
+            }
+        }
+    }
+]
