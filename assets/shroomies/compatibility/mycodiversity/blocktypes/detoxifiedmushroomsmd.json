@@ -1,0 +1,211 @@
+{
+    "code": "mddtmushroom",
+    "class": "BlockMushroom",
+    "variantgroups": [
+        {
+            "code": "type",
+            "states": [
+                "destroyingangel",
+                "yellowstainer",
+                "sulfurtuft",
+                "questionablestropharia",
+                "dyerspolypore",
+                "northernreddye",
+                "yellowramaria",
+                "greenearthtongue",
+                "falseearthstar",
+                "desertshaggymane",
+                "artistsconk",
+                "westernvarnishedconk",
+                "turkeytail",
+                "redbeltedconk"
+            ]
+        },
+        {
+            "code": "state",
+            "states": [ "normal" ]
+        }
+    ],
+    "attributes": {
+        "nutritionPropsWhenInMeal": {
+            "satietyByType": {
+                "*-destroyingangel-*": 85,
+                "*-yellowramaria-*": 90,
+                "*-artistsconk-*": 100,
+                "*-redbeltedconk-*": 100,
+                "*-turkeytail-*": 100,
+                "*-westernvarnishedconk-*": 100,
+                "*-yellowstainer-*": 85,
+                "*-sulfurtuft-*": 85,
+                "*-questionablestropharia-*": 90,
+                "*-dyerspolypore-*": 90,
+                "*-northernreddye-*": 75,
+                "*-greenearthtongue-*": 75,
+                "*-falseearthstar-*": 85,
+                "*-desertshaggymane-*": 100
+            },
+            "foodcategory": "Vegetable",
+            "healthByType": {
+                "*": 0
+            }
+        }
+    },
+    "nutritionPropsByType": {
+        "*-destroyingangel-*": {
+            "saturation": 55,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-yellowstainer-*": {
+            "saturation": 55,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-sulfurtuft-*": {
+            "saturation": 55,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-questionablestropharia-*": {
+            "saturation": 60,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-dyerspolypore-*": {
+            "saturation": 60,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-northernreddye-*": {
+            "saturation": 50,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-yellowramaria-*": {
+            "saturation": 60,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-greenearthtongue-*": {
+            "saturation": 50,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-falseearthstar-*": {
+            "saturation": 55,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-desertshaggymane-*": {
+            "saturation": 65,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-artistsconk-*": {
+            "saturation": 65,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-westernvarnishedconk-*": {
+            "saturation": 65,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-turkeytail-*": {
+            "saturation": 65,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-redbeltedconk-*": {
+            "saturation": 65,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        }
+    },
+    "creativeinventory": {
+        "general": [ "*-normal" ],
+        "flora": [ "*-normal" ]
+    },
+    "shape": { "base": "mycodiversity:block/plant/mushroom/{type}/{state}*" },
+    "shapeInventory": { "base": "mycodiversity:item/food/mushroom/{type}" },
+    "drawtype": "json",
+    "blockmaterial": "Plant",
+    "resistance": 1.5,
+    "replaceable": 3000,
+    "collisionbox": null,
+    "selectionBox": {
+        "x1": 0.125,
+        "y1": 0,
+        "z1": 0.125,
+        "x2": 0.875,
+        "y2": 0.25,
+        "z2": 0.875
+    },
+    "sounds": {
+        "place": "game:block/plant",
+        "break": "game:block/plant",
+        "hit": "game:block/plant"
+    },
+    "rainPermeable": true,
+    "transitionableProps": [
+        {
+            "type": "Perish",
+            "freshHours": { "avg": 432 },
+            "transitionHours": { "avg": 72 },
+            "transitionedStack": {
+                "type": "item",
+                "code": "rot"
+            },
+            "transitionRatio": 1
+        }
+    ],
+    "materialDensity": 200,
+    "drops": [
+        {
+            "type": "block",
+            "code": "detoxmushroom-{type}-normal",
+            "quantity": { "avg": 1 }
+        }
+    ],
+    "guiTransformByType": {
+        "*": {
+            "rotation": {
+                "x": -22,
+                "y": 107,
+                "z": 0
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0.2,
+                "z": 0.5
+            },
+            "scale": 3
+        }
+    },
+    "groundTransform": {
+        "origin": {
+            "x": 0.5,
+            "y": 0,
+            "z": 0.5
+        },
+        "scale": 5
+    },
+    "tpHandTransform": {
+        "translation": {
+            "x": -0.93,
+            "y": -0.17,
+            "z": -0.8
+        },
+        "rotation": {
+            "x": 15,
+            "y": -10,
+            "z": -114
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0.1,
+            "z": 0.5
+        },
+        "scale": 0.58
+    }
+}

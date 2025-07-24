@@ -1,0 +1,567 @@
+[
+    {
+        "file": "expandedfoods:itemtypes/food/cookedchoppedmushroom",
+        "op": "add",
+        "path": "/nutritionPropsByType",
+        "value": {
+            "*-flyagaric-partbaked": {
+                "saturation": 60,
+                "health": -6.5,
+                "foodcategory": "Vegetable"
+            },
+            "*-earthball-partbaked": {
+                "saturation": 110,
+                "health": -8,
+                "foodcategory": "Vegetable"
+            },
+            "*-deathcap-partbaked": {
+                "saturation": 60,
+                "health": -50,
+                "foodcategory": "Vegetable"
+            },
+            "*-elfinsaddle-partbaked": {
+                "saturation": 80,
+                "health": -7,
+                "foodcategory": "Vegetable"
+            },
+            "*-jackolantern-partbaked": {
+                "saturation": 75,
+                "health": -6,
+                "foodcategory": "Vegetable"
+            },
+            "*-devilbolete-partbaked": {
+                "saturation": 100,
+                "health": -10,
+                "foodcategory": "Vegetable"
+            },
+            "*-bitterbolete-partbaked": {
+                "saturation": 100,
+                "health": -1,
+                "foodcategory": "Vegetable"
+            },
+            "*-devilstooth-partbaked": {
+                "saturation": 60,
+                "health": -2,
+                "foodcategory": "Vegetable"
+            },
+            "*-golddropmilkcap-partbaked": {
+                "saturation": 80,
+                "health": -2.5,
+                "foodcategory": "Vegetable"
+            },
+            "*-puffball-partbaked": {
+                "saturation": 130,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-kingbolete-partbaked": {
+                "saturation": 105,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-orangeoakbolete-partbaked": {
+                "saturation": 100,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-redwinecap-partbaked": {
+                "saturation": 100,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-commonmorel-partbaked": {
+                "saturation": 95,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-chanterelle-partbaked": {
+                "saturation": 90,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-blacktrumpet-partbaked": {
+                "saturation": 90,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-fieldmushroom-partbaked": {
+                "saturation": 85,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-saffronmilkcap-partbaked": {
+                "saturation": 85,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-indigomilkcap-partbaked": {
+                "saturation": 80,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-lobster-partbaked": {
+                "saturation": 80,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-almondmushroom-partbaked": {
+                "saturation": 75,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-witchhat-partbaked": {
+                "saturation": 75,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-paddystraw-partbaked": {
+                "saturation": 70,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-greencrackedrussula-partbaked": {
+                "saturation": 60,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-violetwebcap-partbaked": {
+                "saturation": 60,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-funeralbell-partbaked": {
+                "saturation": 60,
+                "health": -40,
+                "foodcategory": "Vegetable"
+            },
+            "*-pinkbonnet-partbaked": {
+                "saturation": 70,
+                "health": -10,
+                "foodcategory": "Vegetable"
+            },
+            "*-beardedtooth-partbaked": {
+                "saturation": 75,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-chickenofthewoods-partbaked": {
+                "saturation": 90,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-dryadsaddle-partbaked": {
+                "saturation": 85,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-pinkoyster-partbaked": {
+                "saturation": 80,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-whiteoyster-partbaked": {
+                "saturation": 80,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-tinderhoof-partbaked": {
+                "saturation": 60,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-shiitake-partbaked": {
+                "saturation": 85,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-reishi-partbaked": {
+                "saturation": 75,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-deerear-partbaked": {
+                "saturation": 60,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-livermushroom-partbaked": {
+                "saturation": 75,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+
+            "*-flyagaric-perfect": {
+                "saturation": 75,
+                "health": -6.5,
+                "foodcategory": "Vegetable"
+            },
+            "*-earthball-perfect": {
+                "saturation": 150,
+                "health": -8,
+                "foodcategory": "Vegetable"
+            },
+            "*-deathcap-perfect": {
+                "saturation": 75,
+                "health": -50,
+                "foodcategory": "Vegetable"
+            },
+            "*-elfinsaddle-perfect": {
+                "saturation": 105,
+                "health": -7,
+                "foodcategory": "Vegetable"
+            },
+            "*-jackolantern-perfect": {
+                "saturation": 100,
+                "health": -6,
+                "foodcategory": "Vegetable"
+            },
+            "*-devilbolete-perfect": {
+                "saturation": 135,
+                "health": -10,
+                "foodcategory": "Vegetable"
+            },
+            "*-bitterbolete-perfect": {
+                "saturation": 135,
+                "health": -1,
+                "foodcategory": "Vegetable"
+            },
+            "*-devilstooth-perfect": {
+                "saturation": 75,
+                "health": -2,
+                "foodcategory": "Vegetable"
+            },
+            "*-golddropmilkcap-perfect": {
+                "saturation": 105,
+                "health": -2.5,
+                "foodcategory": "Vegetable"
+            },
+            "*-puffball-perfect": {
+                "saturation": 180,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-kingbolete-perfect": {
+                "saturation": 145,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-orangeoakbolete-perfect": {
+                "saturation": 135,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-redwinecap-perfect": {
+                "saturation": 135,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-commonmorel-perfect": {
+                "saturation": 130,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-chanterelle-perfect": {
+                "saturation": 120,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-blacktrumpet-perfect": {
+                "saturation": 120,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-fieldmushroom-perfect": {
+                "saturation": 115,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-saffronmilkcap-perfect": {
+                "saturation": 115,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-indigomilkcap-perfect": {
+                "saturation": 105,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-lobster-perfect": {
+                "saturation": 105,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-almondmushroom-perfect": {
+                "saturation": 100,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-witchhat-perfect": {
+                "saturation": 100,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-paddystraw-perfect": {
+                "saturation": 90,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-greencrackedrussula-perfect": {
+                "saturation": 75,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-violetwebcap-perfect": {
+                "saturation": 75,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-funeralbell-perfect": {
+                "saturation": 75,
+                "health": -40,
+                "foodcategory": "Vegetable"
+            },
+            "*-pinkbonnet-perfect": {
+                "saturation": 90,
+                "health": -10,
+                "foodcategory": "Vegetable"
+            },
+            "*-beardedtooth-perfect": {
+                "saturation": 100,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-chickenofthewoods-perfect": {
+                "saturation": 120,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-dryadsaddle-perfect": {
+                "saturation": 115,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-pinkoyster-perfect": {
+                "saturation": 105,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-whiteoyster-perfect": {
+                "saturation": 105,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-tinderhoof-perfect": {
+                "saturation": 75,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-shiitake-perfect": {
+                "saturation": 115,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-reishi-perfect": {
+                "saturation": 100,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-deerear-perfect": {
+                "saturation": 75,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-livermushroom-perfect": {
+                "saturation": 100,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+
+
+            "*-flyagaric-charred": {
+                "saturation": 70,
+                "health": -6.5,
+                "foodcategory": "Vegetable"
+            },
+            "*-earthball-charred": {
+                "saturation": 120,
+                "health": -8,
+                "foodcategory": "Vegetable"
+            },
+            "*-deathcap-charred": {
+                "saturation": 70,
+                "health": -50,
+                "foodcategory": "Vegetable"
+            },
+            "*-elfinsaddle-charred": {
+                "saturation": 90,
+                "health": -7,
+                "foodcategory": "Vegetable"
+            },
+            "*-jackolantern-charred": {
+                "saturation": 85,
+                "health": -6,
+                "foodcategory": "Vegetable"
+            },
+            "*-devilbolete-charred": {
+                "saturation": 110,
+                "health": -10,
+                "foodcategory": "Vegetable"
+            },
+            "*-bitterbolete-charred": {
+                "saturation": 110,
+                "health": -1,
+                "foodcategory": "Vegetable"
+            },
+            "*-devilstooth-charred": {
+                "saturation": 70,
+                "health": -2,
+                "foodcategory": "Vegetable"
+            },
+            "*-golddropmilkcap-charred": {
+                "saturation": 90,
+                "health": -2.5,
+                "foodcategory": "Vegetable"
+            },
+            "*-puffball-charred": {
+                "saturation": 140,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-kingbolete-charred": {
+                "saturation": 115,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-orangeoakbolete-charred": {
+                "saturation": 110,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-redwinecap-charred": {
+                "saturation": 110,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-commonmorel-charred": {
+                "saturation": 105,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-chanterelle-charred": {
+                "saturation": 100,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-blacktrumpet-charred": {
+                "saturation": 100,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-fieldmushroom-charred": {
+                "saturation": 95,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-saffronmilkcap-charred": {
+                "saturation": 95,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-indigomilkcap-charred": {
+                "saturation": 90,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-lobster-charred": {
+                "saturation": 90,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-almondmushroom-charred": {
+                "saturation": 85,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-witchhat-charred": {
+                "saturation": 85,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-paddystraw-charred": {
+                "saturation": 80,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-greencrackedrussula-charred": {
+                "saturation": 70,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-violetwebcap-charred": {
+                "saturation": 70,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-funeralbell-charred": {
+                "saturation": 70,
+                "health": -40,
+                "foodcategory": "Vegetable"
+            },
+            "*-pinkbonnet-charred": {
+                "saturation": 80,
+                "health": -10,
+                "foodcategory": "Vegetable"
+            },
+            "*-beardedtooth-charred": {
+                "saturation": 85,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-chickenofthewoods-charred": {
+                "saturation": 100,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-dryadsaddle-charred": {
+                "saturation": 95,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-pinkoyster-charred": {
+                "saturation": 90,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-whiteoyster-charred": {
+                "saturation": 90,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-tinderhoof-charred": {
+                "saturation": 70,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-shiitake-charred": {
+                "saturation": 95,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-reishi-charred": {
+                "saturation": 85,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-deerear-charred": {
+                "saturation": 70,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-livermushroom-charred": {
+                "saturation": 85,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            }
+        }
+    }
+]

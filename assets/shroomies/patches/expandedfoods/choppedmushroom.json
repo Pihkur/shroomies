@@ -1,0 +1,197 @@
+[
+    {
+        "_comment": "Thank you to Willownezz for pretty much rewriting this entire patch file.",
+
+
+        "file": "expandedfoods:itemtypes/food/choppedmushroom",
+        "op": "add",
+        "path": "/nutritionPropsByType",
+        "value": {
+            "*-flyagaric": {
+                "saturation": 50,
+                "health": -6.5,
+                "foodcategory": "Vegetable"
+            },
+            "*-earthball": {
+                "saturation": 100,
+                "health": -8,
+                "foodcategory": "Vegetable"
+            },
+            "*-deathcap": {
+                "saturation": 50,
+                "health": -50,
+                "foodcategory": "Vegetable"
+            },
+            "*-elfinsaddle": {
+                "saturation": 70,
+                "health": -7,
+                "foodcategory": "Vegetable"
+            },
+            "*-jackolantern": {
+                "saturation": 65,
+                "health": -6,
+                "foodcategory": "Vegetable"
+            },
+            "*-devilbolete": {
+                "saturation": 90,
+                "health": -10,
+                "foodcategory": "Vegetable"
+            },
+            "*-bitterbolete": {
+                "saturation": 90,
+                "health": -1,
+                "foodcategory": "Vegetable"
+            },
+            "*-devilstooth": {
+                "saturation": 50,
+                "health": -2,
+                "foodcategory": "Vegetable"
+            },
+            "*-golddropmilkcap": {
+                "saturation": 70,
+                "health": -2.5,
+                "foodcategory": "Vegetable"
+            },
+            "*-puffball": {
+                "saturation": 120,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-kingbolete": {
+                "saturation": 95,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-orangeoakbolete": {
+                "saturation": 90,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-redwinecap": {
+                "saturation": 90,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-commonmorel": {
+                "saturation": 85,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-chanterelle": {
+                "saturation": 80,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-blacktrumpet": {
+                "saturation": 80,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-fieldmushroom": {
+                "saturation": 75,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-saffronmilkcap": {
+                "saturation": 75,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-indigomilkcap": {
+                "saturation": 70,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-lobster": {
+                "saturation": 70,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-almondmushroom": {
+                "saturation": 65,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-witchhat": {
+                "saturation": 65,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-paddystraw": {
+                "saturation": 60,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-greencrackedrussula": {
+                "saturation": 50,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-violetwebcap": {
+                "saturation": 50,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-funeralbell": {
+                "saturation": 50,
+                "health": -40,
+                "foodcategory": "Vegetable"
+            },
+            "*-pinkbonnet": {
+                "saturation": 60,
+                "health": -10,
+                "foodcategory": "Vegetable"
+            },
+            "*-beardedtooth": {
+                "saturation": 65,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-chickenofthewoods": {
+                "saturation": 80,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-dryadsaddle": {
+                "saturation": 75,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-pinkoyster": {
+                "saturation": 70,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-whiteoyster": {
+                "saturation": 70,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-tinderhoof": {
+                "saturation": 50,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-shiitake": {
+                "saturation": 75,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-reishi": {
+                "saturation": 65,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-deerear": {
+                "saturation": 50,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-livermushroom": {
+                "saturation": 65,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            }
+        }
+    }
+]

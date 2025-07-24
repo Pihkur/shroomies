@@ -1,0 +1,83 @@
+{
+    "block-mddtmushroom-destroyingangel-normal": "Detoxified destroying angel",
+    "block-mddtmushroom-yellowstainer-normal": "Detoxified yellow stainer",
+    "block-mddtmushroom-sulfurtuft-normal": "Detoxified sulfur tuft",
+    "block-mddtmushroom-questionablestropharia-normal": "Detoxified questionable stropharia",
+    "block-mddtmushroom-dyerspolypore-normal": "Detoxified dyer's polypore",
+    "block-mddtmushroom-northernreddye-normal": "Detoxified bloodred webcap",
+    "block-mddtmushroom-yellowramaria-normal": "Detoxified yellow coral",
+    "block-mddtmushroom-greenearthtongue-normal": "Detoxified green earth tongue",
+    "block-mddtmushroom-falseearthstar-normal": "Detoxified false earthstar",
+    "block-mddtmushroom-desertshaggymane-normal": "Detoxified desert shaggy mane",
+    "block-mddtmushroom-artistsconk-normal": "Detoxified artist's conk",
+    "block-mddtmushroom-westernvarnishedconk-normal": "Detoxified western varnished conk",
+    "block-mddtmushroom-turkeytail-normal": "Detoxified turkeytail",
+    "block-mddtmushroom-redbeltedconk-normal": "Detoxified red belted conk",
+
+    "block-dtmushroom-flyagaric-normal": "Detoxified fly agaric",
+    "block-dtmushroom-earthball-normal": "Detoxified earthball",
+    "block-dtmushroom-deathcap-normal": "Detoxified death cap",
+    "block-dtmushroom-elfinsaddle-normal": "Detoxified elfin saddle",
+    "block-dtmushroom-jackolantern-normal": "Detoxified jack'o'lantern",
+    "block-dtmushroom-devilbolete-normal": "Detoxified devil's bolete",
+    "block-dtmushroom-bitterbolete-normal": "Detoxified bitter bolete",
+    "block-dtmushroom-devilstooth-normal": "Detoxified devil's tooth",
+    "block-dtmushroom-golddropmilkcap-normal": "Detoxified gold-drop milkcap",
+    "block-dtmushroom-funeralbell-normal": "Detoxified funeral bell",
+    "block-dtmushroom-pinkbonnet-normal": "Detoxified pink bonnet",
+
+    "item-choppeddtmushroom-earthball": "Chopped detoxified earthball",
+    "item-cookedchoppeddtmushroom-earthball-partbaked": "Cooked chopped detoxified earthball (part-baked)",
+    "item-cookedchoppeddtmushroom-earthball-perfect": "Cooked chopped detoxified earthball (perfect)",
+    "item-cookedchoppeddtmushroom-earthball-charred": "Cooked chopped detoxified earthball (charred)",
+
+    "item-choppeddtmushroom-deathcap": "Chopped detoxified death cap",
+    "item-cookedchoppeddtmushroom-deathcap-partbaked": "Cooked chopped detoxified death cap (part-baked)",
+    "item-cookedchoppeddtmushroom-deathcap-perfect": "Cooked chopped detoxified death cap (perfect)",
+    "item-cookedchoppeddtmushroom-deathcap-charred": "Cooked chopped detoxified death cap (charred)",
+
+    "item-choppeddtmushroom-elfinsaddle": "Chopped detoxified elfin saddle",
+    "item-cookedchoppeddtmushroom-elfinsaddle-partbaked": "Cooked chopped detoxified elfin saddle (part-baked)",
+    "item-cookedchoppeddtmushroom-elfinsaddle-perfect": "Cooked chopped detoxified elfin saddle (perfect)",
+    "item-cookedchoppeddtmushroom-elfinsaddle-charred": "Cooked chopped detoxified elfin saddle (charred)",
+
+    "item-choppeddtmushroom-jackolantern": "Chopped detoxified jack'o'lantern",
+    "item-cookedchoppeddtmushroom-jackolantern-partbaked": "Cooked chopped detoxified jack'o'lantern (part-baked)",
+    "item-cookedchoppeddtmushroom-jackolantern-perfect": "Cooked chopped detoxified jack'o'lantern (perfect)",
+    "item-cookedchoppeddtmushroom-jackolantern-charred": "Cooked chopped detoxified jack'o'lantern (charred)",
+
+    "item-choppeddtmushroom-devilbolete": "Chopped detoxified devil's bolete",
+    "item-cookedchoppeddtmushroom-devilbolete-partbaked": "Cooked chopped detoxified devil's bolete (part-baked)",
+    "item-cookedchoppeddtmushroom-devilbolete-perfect": "Cooked chopped detoxified devil's bolete (perfect)",
+    "item-cookedchoppeddtmushroom-devilbolete-charred": "Cooked chopped detoxified devil's bolete (charred)",
+
+    "item-choppeddtmushroom-flyagaric": "Chopped detoxified fly agaric",
+    "item-cookedchoppeddtmushroom-flyagaric-partbaked": "Cooked chopped detoxified fly agaric (part-baked)",
+    "item-cookedchoppeddtmushroom-flyagaric-perfect": "Cooked chopped detoxified fly agaric (perfect)",
+    "item-cookedchoppeddtmushroom-flyagaric-charred": "Cooked chopped detoxified fly agaric (charred)",
+
+    "item-choppeddtmushroom-bitterbolete": "Chopped detoxified bitter bolete",
+    "item-cookedchoppeddtmushroom-bitterbolete-partbaked": "Cooked chopped detoxified bitter bolete (part-baked)",
+    "item-cookedchoppeddtmushroom-bitterbolete-perfect": "Cooked chopped detoxified bitter bolete (perfect)",
+    "item-cookedchoppeddtmushroom-bitterbolete-charred": "Cooked chopped detoxified bitter bolete (charred)",
+
+    "item-choppeddtmushroom-devilstooth": "Chopped detoxified devil's tooth",
+    "item-cookedchoppeddtmushroom-devilstooth-partbaked": "Cooked chopped detoxified devil's tooth (part-baked)",
+    "item-cookedchoppeddtmushroom-devilstooth-perfect": "Cooked chopped detoxified devil's tooth (perfect)",
+    "item-cookedchoppeddtmushroom-devilstooth-charred": "Cooked chopped detoxified devil's tooth (charred)",
+
+    "item-choppeddtmushroom-golddropmilkcap": "Chopped detoxified gold-drop milkcap",
+    "item-cookedchoppeddtmushroom-golddropmilkcap-partbaked": "Cooked chopped detoxified gold-drop milkcap (part-baked)",
+    "item-cookedchoppeddtmushroom-golddropmilkcap-perfect": "Cooked chopped detoxified gold-drop milkcap (perfect)",
+    "item-cookedchoppeddtmushroom-golddropmilkcap-charred": "Cooked chopped detoxified gold-drop milkcap (charred)",
+
+    "item-choppeddtmushroom-funeralbell": "Chopped detoxified funeral bell",
+    "item-cookedchoppeddtmushroom-funeralbell-partbaked": "Cooked chopped detoxified funeral bell (part-baked)",
+    "item-cookedchoppeddtmushroom-funeralbell-perfect": "Cooked chopped detoxified funeral bell (perfect)",
+    "item-cookedchoppeddtmushroom-funeralbell-charred": "Cooked chopped detoxified funeral bell (charred)",
+
+    "item-choppeddtmushroom-pinkbonnet": "Chopped detoxified pink bonnet",
+    "item-cookedchoppeddtmushroom-pinkbonnet-partbaked": "Cooked chopped detoxified pink bonnet (part-baked)",
+    "item-cookedchoppeddtmushroom-pinkbonnet-perfect": "Cooked chopped detoxified pink bonnet (perfect)",
+    "item-cookedchoppeddtmushroom-pinkbonnet-charred": "Cooked chopped detoxified pink bonnet (charred)"
+}

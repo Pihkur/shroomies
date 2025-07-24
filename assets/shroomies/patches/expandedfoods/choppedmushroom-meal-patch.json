@@ -1,0 +1,53 @@
+[
+    {
+        "file": "expandedfoods:itemtypes/food/choppedmushroom",
+        "op": "remove",
+        "path": "/attributes/nutritionPropsWhenInMeal/satiety"
+    },
+    {
+        "file": "expandedfoods:itemtypes/food/choppedmushroom",
+        "op": "add",
+        "path": "/attributes/nutritionPropsWhenInMeal",
+        "value": {
+            "satietyByType": {
+                "*-flyagaric": 75,
+                "*-earthball": 150,
+                "*-deathcap": 75,
+                "*-elfinsaddle": 105,
+                "*-jackolantern": 100,
+                "*-devilbolete": 135,
+                "*-bitterbolete": 135,
+                "*-devilstooth": 75,
+                "*-golddropmilkcap": 105,
+                "*-puffball": 180,
+                "*-kingbolete": 145,
+                "*-orangeoakbolete": 135,
+                "*-redwinecap": 135,
+                "*-commonmorel": 130,
+                "*-chanterelle": 120,
+                "*-blacktrumpet": 120,
+                "*-fieldmushroom": 115,
+                "*-saffronmilkcap": 115,
+                "*-indigomilkcap": 105,
+                "*-lobster": 105,
+                "*-almondmushroom": 100,
+                "*-witchhat": 100,
+                "*-paddystraw": 90,
+                "*-greencrackedrussula": 75,
+                "*-violetwebcap": 75,
+                "*-beardedtooth": 100,
+                "*-chickenofthewoods": 120,
+                "*-deerear": 75,
+                "*-dryadsaddle": 115,
+                "*-funeralbell": 75,
+                "*-livermushroom": 100,
+                "*-pinkbonnet": 90,
+                "*-pinkoyster": 105,
+                "*-reishi": 100,
+                "*-shiitake": 115,
+                "*-tinderhoof": 75,
+                "*-whiteoyster": 105
+            }
+        }
+    }
+]

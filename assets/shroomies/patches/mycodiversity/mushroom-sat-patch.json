@@ -1,0 +1,172 @@
+[
+    {
+        "_comment": "Thank you to metasynthie for these saturation values.",
+
+
+        "file": "game:blocktypes/plant/mycodiversity-mushroom",
+        "op": "add",
+        "path": "/nutritionPropsByType",
+        "value": {
+            "*-destroyingangel-*": {
+                "saturation": 55,
+                "health": -50,
+                "foodcategory": "Vegetable"
+            },
+            "*-yellowstainer-*": {
+                "saturation": 55,
+                "health": -6,
+                "foodcategory": "Vegetable"
+            },
+            "*-sulfurtuft-*": {
+                "saturation": 55,
+                "health": -8,
+                "foodcategory": "Vegetable"
+            },
+            "*-questionablestropharia-*": {
+                "saturation": 60,
+                "health": -2,
+                "foodcategory": "Vegetable"
+            },
+            "*-dyerspolypore-*": {
+                "saturation": 60,
+                "health": -2,
+                "foodcategory": "Vegetable"
+            },
+            "*-northernreddye-*": {
+                "saturation": 50,
+                "health": -2,
+                "foodcategory": "Vegetable"
+            },
+            "*-yellowramaria-*": {
+                "saturation": 60,
+                "health": -2,
+                "foodcategory": "Vegetable"
+            },
+            "*-greenearthtongue-*": {
+                "saturation": 50,
+                "health": -2,
+                "foodcategory": "Vegetable"
+            },
+            "*-falseearthstar-*": {
+                "saturation": 55,
+                "health": -2,
+                "foodcategory": "Vegetable"
+            },
+            "*-desertshaggymane-*": {
+                "saturation": 65,
+                "health": -2,
+                "foodcategory": "Vegetable"
+            },
+            "*-aniseedfunnel-*": {
+                "saturation": 60,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-aspenbolete-*": {
+                "saturation": 70,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-birchbolete-*": {
+                "saturation": 70,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-blewit-*": {
+                "saturation": 75,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-candycap-*": {
+                "saturation": 60,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-coccora-*": {
+                "saturation": 75,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-flattoppedclubcoral-*": {
+                "saturation": 60,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-friedchickenmushroom-*": {
+                "saturation": 70,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-hawkwing-*": {
+                "saturation": 70,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-honeymushroom-*": {
+                "saturation": 70,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-matsutake-*": {
+                "saturation": 90,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-parasol-*": {
+                "saturation": 85,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-purplefairyclub-*": {
+                "saturation": 55,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-queenbolete-*": {
+                "saturation": 90,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-redramaria-*": {
+                "saturation": 60,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-shaggymane-*": {
+                "saturation": 70,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-shrimpmushroom-*": {
+                "saturation": 75,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-slipperyjack-*": {
+                "saturation": 70,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-stinkhorn-*": {
+                "saturation": 60,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-winterchanterelle-*": {
+                "saturation": 75,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-bluechanterelle-*": {
+                "saturation": 80,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            },
+            "*-hedgehogmushroom-*": {
+                "saturation": 80,
+                "health": 0,
+                "foodcategory": "Vegetable"
+            }
+        }
+    }
+]
