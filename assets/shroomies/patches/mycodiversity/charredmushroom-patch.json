@@ -1,0 +1,87 @@
+[
+    {
+        "file": "game:blocktypes/plant/mycodiversity-mushroom.json",
+        "op": "add",
+        "path": "/variantgroups",
+        "value": [
+            {
+                "loadFromProperties": "shroomies:block/mushroom"
+            },
+            {
+                "code": "state",
+                "states": [ "normal", "harvested" ]
+            }
+        ],
+        "dependsOn": [
+            {
+                "modid": "mycodiversity"
+            }
+        ]
+    },
+    {
+        "file": "game:blocktypes/plant/mycodiversity-mushroom.json",
+        "op": "add",
+        "path": "/skipvariants",
+        "value": [
+            "mushroom-artistsconk-*",
+            "mushroom-beefsteakfungus-*",
+            "mushroom-redbeltedconk-*",
+            "mushroom-turkeytail-*",
+            "mushroom-westernvarnishedconk-*"
+        ],
+        "dependsOn": [
+            {
+                "modid": "mycodiversity"
+            }
+        ]
+    },
+    {
+        "file": "game:blocktypes/plant/mycodiversity-mushroom.json",
+        "op": "add",
+        "path": "/plantContainable",
+        "value": {
+            "smallContainer": {
+                "randomRotate": false,
+                "shape": { "base": "mycodiversity:block/plant/mushroom/{mushroom}/flowerpot/normal*" }
+            },
+            "largeContainer": {
+                "randomRotate": false,
+                "shape": { "base": "mycodiversity:block/plant/mushroom/{mushroom}/planter/normal*" }
+            }
+        }
+    },
+    {
+        "file": "game:blocktypes/plant/mycodiversity-mushroom.json",
+        "op": "add",
+        "path": "/shape",
+        "value": {
+            "base": "mycodiversity:item/food/mushroom/{mushroom}"
+        }
+    },
+    {
+        "file": "game:blocktypes/plant/mycodiversity-mushroom.json",
+        "op": "add",
+        "path": "/shapeInventory",
+        "value": {
+            "base": "mycodiversity:item/food/mushroom/{mushroom}"
+        }
+    },
+    {
+        "file": "game:blocktypes/plant/mycodiversity-mushroom.json",
+        "op": "add",
+        "path": "/combustiblePropsByType",
+        "value": {
+            "*": {
+                "meltingPoint": 150,
+                "meltingDuration": 30,
+                "smeltedRatio": 1,
+                "smeltingType": "cook",
+                "smeltedStack": {
+                    "type": "item",
+                    "code": "shroomies:mdcookedmushroom-{mushroom}-charred"
+                },
+                "requiresContainer": false
+            }
+        }
+    }
+]

@@ -1,0 +1,455 @@
+{
+    "_comment": "enable when expandedfoods AND mycodiversity are present.",
+    "enabled": false,
+    "code": "mdchoppedmushroom",
+    "maxstacksize": 64,
+    "variantgroups": [
+        {
+            "code": "type",
+            "states": [
+                "aniseedfunnel",
+                "aspenbolete",
+                "birchbolete",
+                "blewit",
+                "bluechanterelle",
+                "candycap",
+                "coccora",
+                "desertshaggymane",
+                "destroyingangel",
+                "dyerspolypore",
+                "falseearthstar",
+                "flattoppedclubcoral",
+                "friedchickenmushroom",
+                "greenearthtongue",
+                "hawkwing",
+                "hedgehogmushroom",
+                "honeymushroom",
+                "matsutake",
+                "northernreddye",
+                "parasol",
+                "purplefairyclub",
+                "queenbolete",
+                "questionablestropharia",
+                "redramaria",
+                "shaggymane",
+                "shrimpmushroom",
+                "slipperyjack",
+                "stinkhorn",
+                "sulfurtuft",
+                "winterchanterelle",
+                "yellowramaria",
+                "yellowstainer",
+                "artistsconk",
+                "beefsteakfungus",
+                "redbeltedconk",
+                "turkeytail",
+                "westernvarnishedconk"
+            ]
+        }
+    ],
+    "attributes": {
+        "displaycaseable": true,
+        "shelvable": true,
+        "nutritionPropsWhenInMeal": {
+            "satietyByType": {
+                "*-aniseedfunnel": 90,
+                "*-aspenbolete": 105,
+                "*-birchbolete": 105,
+                "*-blewit": 115,
+                "*-candycap": 90,
+                "*-coccora": 115,
+                "*-desertshaggymane": 100,
+                "*-destroyingangel": 85,
+                "*-dyerspolypore": 90,
+                "*-falseearthstar": 85,
+                "*-flattoppedclubcoral": 90,
+                "*-friedchickenmushroom": 105,
+                "*-greenearthtongue": 75,
+                "*-hawkwing": 105,
+                "*-honeymushroom": 105,
+                "*-matsutake": 135,
+                "*-parasol": 130,
+                "*-purplefairyclub": 85,
+                "*-queenbolete": 135,
+                "*-questionablestropharia": 90,
+                "*-shaggymane": 105,
+                "*-shrimpmushroom": 115,
+                "*-slipperyjack": 105,
+                "*-stinkhorn": 90,
+                "*-sulfurtuft": 85,
+                "*-winterchanterelle": 115,
+                "*-yellowstainer": 85,
+                "*-bluechanterelle": 120,
+                "*-hedgehogmushroom": 120,
+                "*-redramaria": 90,
+                "*-yellowramaria": 90,
+                "*-northernreddye": 75,
+                "*-artistsconk": 100,
+                "*-beefsteakfungus": 120,
+                "*-redbeltedconk": 100,
+                "*-turkeytail": 100,
+                "*-westernvarnishedconk": 100
+            },
+            "foodcategory": "Vegetable",
+            "healthByType": {
+                "*-destroyingangel": -50,
+                "*-yellowstainer": -6,
+                "*-sulfurtuft": -8,
+                "*-questionablestropharia": -2,
+                "*-dyerspolypore": -2,
+                "*-northernreddye": -2,
+                "*-yellowramaria": -2,
+                "*-greenearthtongue": -2,
+                "*-falseearthstar": -2,
+                "*-desertshaggymane": -2,
+                "*-artistsconk": -99,
+                "*-redbeltedconk": -99,
+                "*-turkeytail": -99,
+                "*-westernvarnishedconk": -99,
+                "*": 0
+            }
+        },
+        "handbook": { "groupBy": [ "mdchoppedmushroom-*" ] },
+        "bakingProperties": {
+            "temp": 100,
+            "levelFrom": 0.0,
+            "levelTo": 0.25,
+            "startScaleY": 1.0,
+            "endScaleY": 1.0,
+            "resultCode": "shroomies:mdcookedchoppedmushroom-{type}-partbaked"
+        },
+        "onDisplayTransform": {
+            "translation": {
+                "x": 0,
+                "y": -0.125,
+                "z": 0
+            },
+            "scale": 0.75
+        },
+        "inPiePropertiesByType": {
+            "@*-(golddropmilkcap|jackolantern)": {
+                "texture": "game:block/food/pie/fill-mushroomyellow",
+                "partType": "Filling"
+            },
+            "*-deathcap": {
+                "texture": "game:block/food/pie/fill-mushroomoffwhite",
+                "partType": "Filling"
+            },
+            "@*-(devilbolete|funeralbell)": {
+                "texture": "game:block/food/pie/fill-mushroomorange",
+                "partType": "Filling"
+            },
+            "*-devilstooth": {
+                "texture": "game:block/food/pie/fill-mushroomdevilstooth",
+                "partType": "Filling"
+            },
+            "@*-(elfinsaddle|flyagaric)": {
+                "texture": "game:block/food/pie/fill-mushroomred",
+                "partType": "Filling"
+            },
+            "*-pinkbonnet": {
+                "texture": "game:block/food/pie/fill-mushroompink",
+                "partType": "Filling"
+            },
+            "@*-(bitterbolete|earthball)": {
+                "texture": "game:block/food/pie/fill-mushroombrown",
+                "partType": "Filling"
+            }
+        }
+    },
+    "shape": {
+        "base": "shroomies:mycod-chopped/raw/{type}"
+    },
+    "creativeinventory": {
+        "general": [ "*" ],
+        "items": [ "*" ],
+        "expandedfoods": [ "*" ]
+    },
+    "nutritionPropsByType": {
+        "*-destroyingangel": {
+            "saturation": 55,
+            "health": -50,
+            "foodcategory": "Vegetable"
+        },
+        "*-yellowstainer": {
+            "saturation": 55,
+            "health": -6,
+            "foodcategory": "Vegetable"
+        },
+        "*-sulfurtuft": {
+            "saturation": 55,
+            "health": -8,
+            "foodcategory": "Vegetable"
+        },
+        "*-questionablestropharia": {
+            "saturation": 60,
+            "health": -2,
+            "foodcategory": "Vegetable"
+        },
+        "*-dyerspolypore": {
+            "saturation": 60,
+            "health": -2,
+            "foodcategory": "Vegetable"
+        },
+        "*-northernreddye": {
+            "saturation": 50,
+            "health": -2,
+            "foodcategory": "Vegetable"
+        },
+        "*-yellowramaria": {
+            "saturation": 60,
+            "health": -2,
+            "foodcategory": "Vegetable"
+        },
+        "*-greenearthtongue": {
+            "saturation": 50,
+            "health": -2,
+            "foodcategory": "Vegetable"
+        },
+        "*-falseearthstar": {
+            "saturation": 55,
+            "health": -2,
+            "foodcategory": "Vegetable"
+        },
+        "*-desertshaggymane": {
+            "saturation": 65,
+            "health": -2,
+            "foodcategory": "Vegetable"
+        },
+        "*-aniseedfunnel": {
+            "saturation": 60,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-aspenbolete": {
+            "saturation": 70,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-birchbolete": {
+            "saturation": 70,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-blewit": {
+            "saturation": 75,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-candycap": {
+            "saturation": 60,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-coccora": {
+            "saturation": 75,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-flattoppedclubcoral": {
+            "saturation": 60,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-friedchickenmushroom": {
+            "saturation": 70,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-hawkwing": {
+            "saturation": 70,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-honeymushroom": {
+            "saturation": 70,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-matsutake": {
+            "saturation": 90,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-parasol": {
+            "saturation": 85,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-purplefairyclub": {
+            "saturation": 55,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-queenbolete": {
+            "saturation": 90,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-redramaria": {
+            "saturation": 60,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-shaggymane": {
+            "saturation": 70,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-shrimpmushroom": {
+            "saturation": 75,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-slipperyjack": {
+            "saturation": 70,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-stinkhorn": {
+            "saturation": 60,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-winterchanterelle": {
+            "saturation": 75,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-bluechanterelle": {
+            "saturation": 80,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-hedgehogmushroom": {
+            "saturation": 80,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-artistsconk": {
+            "saturation": 65,
+            "health": -2,
+            "foodcategory": "Vegetable"
+        },
+        "*-westernvarnishedconk": {
+            "saturation": 65,
+            "health": -2,
+            "foodcategory": "Vegetable"
+        },
+        "*-turkeytail": {
+            "saturation": 65,
+            "health": -2,
+            "foodcategory": "Vegetable"
+        },
+        "*-redbeltedconk": {
+            "saturation": 65,
+            "health": -2,
+            "foodcategory": "Vegetable"
+        },
+        "*-beefsteakfungus": {
+            "saturation": 80,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        }
+    },
+    "combustiblePropsByType": {
+        "*": {
+            "meltingPoint": 150,
+            "meltingDuration": 30,
+            "smeltedRatio": 1,
+            "smeltingType": "bake",
+            "smeltedStack": {
+                "type": "item",
+                "code": "shroomies:mdcookedchoppedmushroom-{type}-charred"
+            },
+            "requiresContainer": false
+        },
+        "choppeddtmushroom-*": {
+            "meltingPoint": 150,
+            "meltingDuration": 30,
+            "smeltedRatio": 1,
+            "smeltingType": "cook",
+            "smeltedStack": {
+                "type": "item",
+                "code": "shroomies:mdcookedchoppeddtmushroom-{type}-charred"
+            },
+            "requiresContainer": false
+        }
+    },
+    "transitionablePropsByType": {
+        "*": [
+            {
+                "type": "Perish",
+                "freshHours": { "avg": 432 },
+                "transitionHours": { "avg": 72 },
+                "transitionedStack": {
+                    "type": "item",
+                    "code": "game:rot"
+                },
+                "transitionRatio": 1
+            }
+        ]
+    },
+    "materialDensity": 600,
+    "guiTransformByType": {
+        "*": {
+            "translation": {
+                "x": 3,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": -44,
+                "y": 180,
+                "z": 2
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0.05,
+                "z": 0.5
+            },
+            "scale": 2,
+            "rotate": true
+        }
+    },
+    "tpHandTransformByType": {
+        "*": {
+            "translation": {
+                "x": -1.03,
+                "y": -0.225,
+                "z": -1
+            },
+            "rotation": {
+                "x": 1,
+                "y": -10,
+                "z": 0
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0.1,
+                "z": 0.5
+            },
+            "scale": 0.5
+        }
+    },
+    "groundTransformByType": {
+        "*": {
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0,
+                "z": 0.5
+            },
+            "scale": 2
+        }
+    }
+}

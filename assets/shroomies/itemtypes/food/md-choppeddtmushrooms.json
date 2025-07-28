@@ -1,23 +1,26 @@
 {
-    "_comment": "Enable when expandedfoods is present.",
+    "_comment": "enable when expandedfoods AND mycodiversity are present.",
     "enabled": false,
-    "code": "choppeddtmushroom",
+    "code": "mdchoppeddtmushroom",
     "maxstacksize": 64,
     "variantgroups": [
         {
             "code": "type",
             "states": [
-                "earthball",
-                "deathcap",
-                "elfinsaddle",
-                "jackolantern",
-                "devilbolete",
-                "flyagaric",
-                "bitterbolete",
-                "devilstooth",
-                "golddropmilkcap",
-                "funeralbell",
-                "pinkbonnet"
+                "destroyingangel",
+                "yellowstainer",
+                "sulfurtuft",
+                "questionablestropharia",
+                "dyerspolypore",
+                "northernreddye",
+                "yellowramaria",
+                "greenearthtongue",
+                "falseearthstar",
+                "desertshaggymane",
+                "artistsconk",
+                "redbeltedconk",
+                "turkeytail",
+                "westernvarnishedconk"
             ]
         }
     ],
@@ -26,29 +29,32 @@
         "shelvable": true,
         "nutritionPropsWhenInMeal": {
             "satietyByType": {
-                "*-earthball": 150,
-                "*-deathcap": 75,
-                "*-elfinsaddle": 105,
-                "*-jackolantern": 100,
-                "*-devilbolete": 135,
-                "*-flyagaric": 75,
-                "*-bitterbolete": 135,
-                "*-devilstooth": 75,
-                "*-golddropmilkcap": 105,
-                "*-funeralbell": 75,
-                "*-pinkbonnet": 90
+                "*-destroyingangel": 85,
+                "*-yellowstainer": 85,
+                "*-sulfurtuft": 85,
+                "*-questionablestropharia": 90,
+                "*-dyerspolypore": 90,
+                "*-northernreddye": 75,
+                "*-yellowramaria": 90,
+                "*-greenearthtongue": 75,
+                "*-falseearthstar": 85,
+                "*-desertshaggymane": 100,
+                "*-artistsconk": 100,
+                "*-redbeltedconk": 100,
+                "*-turkeytail": 100,
+                "*-westernvarnishedconk": 100
             },
             "foodcategory": "Vegetable",
             "health": 0
         },
-        "handbook": { "groupBy": [ "choppeddtmushroom-*" ] },
+        "handbook": { "groupBy": [ "mdchoppeddtmushroom-*" ] },
         "bakingProperties": {
             "temp": 100,
             "levelFrom": 0.0,
             "levelTo": 0.25,
             "startScaleY": 1.0,
             "endScaleY": 1.0,
-            "resultCode": "shroomies:cookedchoppeddtmushroom-{type}-partbaked"
+            "resultCode": "shroomies:mdcookedchoppeddtmushroom-{type}-partbaked"
         },
         "onDisplayTransform": {
             "translation": {
@@ -90,7 +96,7 @@
         }
     },
     "shape": {
-        "base": "expandedfoods:item/food/mushroom/chopped/{type}"
+        "base": "shroomies:mycod-chopped/raw/{type}"
     },
     "creativeinventory": {
         "general": [ "*" ],
@@ -98,58 +104,73 @@
         "expandedfoods": [ "*" ]
     },
     "nutritionPropsByType": {
-        "*-earthball": {
-            "saturation": 100,
+        "*-destroyingangel": {
+            "saturation": 55,
             "health": 0,
             "foodcategory": "Vegetable"
         },
-        "*-deathcap": {
+        "*-yellowstainer": {
+            "saturation": 55,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-sulfurtuft": {
+            "saturation": 55,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-questionablestropharia": {
+            "saturation": 60,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-dyerspolypore": {
+            "saturation": 60,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-northernreddye": {
             "saturation": 50,
             "health": 0,
             "foodcategory": "Vegetable"
         },
-        "*-elfinsaddle": {
-            "saturation": 70,
+        "*-yellowramaria": {
+            "saturation": 60,
             "health": 0,
             "foodcategory": "Vegetable"
         },
-        "*-jackolantern": {
+        "*-greenearthtongue": {
+            "saturation": 50,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-falseearthstar": {
+            "saturation": 55,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-desertshaggymane": {
             "saturation": 65,
             "health": 0,
             "foodcategory": "Vegetable"
         },
-        "*-devilbolete": {
-            "saturation": 90,
+        "*-artistsconk": {
+            "saturation": 65,
             "health": 0,
             "foodcategory": "Vegetable"
         },
-        "*-flyagaric": {
-            "saturation": 50,
+        "*-westernvarnishedconk": {
+            "saturation": 65,
             "health": 0,
             "foodcategory": "Vegetable"
         },
-        "*-bitterbolete": {
-            "saturation": 90,
+        "*-turkeytail": {
+            "saturation": 65,
             "health": 0,
             "foodcategory": "Vegetable"
         },
-        "*-devilstooth": {
-            "saturation": 50,
-            "health": 0,
-            "foodcategory": "Vegetable"
-        },
-        "*-golddropmilkcap": {
-            "saturation": 70,
-            "health": 0,
-            "foodcategory": "Vegetable"
-        },
-        "*-funeralbell": {
-            "saturation": 50,
-            "health": 0,
-            "foodcategory": "Vegetable"
-        },
-        "*-pinkbonnet": {
-            "saturation": 60,
+        "*-redbeltedconk": {
+            "saturation": 65,
             "health": 0,
             "foodcategory": "Vegetable"
         }
@@ -162,18 +183,18 @@
             "smeltingType": "bake",
             "smeltedStack": {
                 "type": "item",
-                "code": "shroomies:cookedchoppeddtmushroom-{type}-charred"
+                "code": "shroomies:mdcookedchoppeddtmushroom-{type}-charred"
             },
             "requiresContainer": false
         },
-        "choppeddtmushroom-*": {
+        "mdchoppeddtmushroom-*": {
             "meltingPoint": 150,
             "meltingDuration": 30,
             "smeltedRatio": 1,
             "smeltingType": "cook",
             "smeltedStack": {
                 "type": "item",
-                "code": "shroomies:cookedchoppeddtmushroom-{type}-charred"
+                "code": "shroomies:mdcookedchoppeddtmushroom-{type}-charred"
             },
             "requiresContainer": false
         }
@@ -194,82 +215,6 @@
     },
     "materialDensity": 600,
     "guiTransformByType": {
-        "*-pinkbonnet": {
-            "translation": {
-                "x": 3,
-                "y": 0,
-                "z": 0
-            },
-            "rotation": {
-                "x": -44,
-                "y": 180,
-                "z": 2
-            },
-            "origin": {
-                "x": 0.5,
-                "y": 0.05,
-                "z": 0.5
-            },
-            "scale": 3,
-            "rotate": true
-        },
-        "@*-(elfinsaddle|golddropmill)": {
-            "translation": {
-                "x": 3,
-                "y": 0,
-                "z": 0
-            },
-            "rotation": {
-                "x": -44,
-                "y": 180,
-                "z": 2
-            },
-            "origin": {
-                "x": 0.5,
-                "y": 0.05,
-                "z": 0.5
-            },
-            "scale": 2.5,
-            "rotate": true
-        },
-        "*-earthball": {
-            "translation": {
-                "x": 6,
-                "y": 0,
-                "z": 0
-            },
-            "rotation": {
-                "x": -44,
-                "y": 180,
-                "z": 2
-            },
-            "origin": {
-                "x": 0.5,
-                "y": 0.05,
-                "z": 0.5
-            },
-            "scale": 1.9,
-            "rotate": true
-        },
-        "@*-(devilstooth|funeralbell)": {
-            "translation": {
-                "x": 3,
-                "y": 0,
-                "z": 0
-            },
-            "rotation": {
-                "x": -44,
-                "y": 180,
-                "z": 2
-            },
-            "origin": {
-                "x": 0.5,
-                "y": 0.05,
-                "z": 0.5
-            },
-            "scale": 2.25,
-            "rotate": true
-        },
         "*": {
             "translation": {
                 "x": 3,

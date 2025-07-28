@@ -6,7 +6,7 @@
     },
     {
         "file": "game:blocktypes/plant/mycodiversity-mushroom",
-        "op": "add",
+        "op": "addmerge",
         "path": "/attributes/nutritionPropsWhenInMeal",
         "value": {
             "satietyByType": {

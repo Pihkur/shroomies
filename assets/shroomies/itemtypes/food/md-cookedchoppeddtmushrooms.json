@@ -1,23 +1,26 @@
 {
-    "_comment": "Enable when expandedfoods is present.",
+    "_comment": "enable when expandedfoods AND mycodiversity are present.",
     "enabled": false,
-    "code": "cookedchoppeddtmushroom",
+    "code": "mdcookedchoppeddtmushroom",
     "maxstacksize": 64,
     "variantgroups": [
         {
             "code": "type",
             "states": [
-                "earthball",
-                "deathcap",
-                "elfinsaddle",
-                "jackolantern",
-                "devilbolete",
-                "flyagaric",
-                "bitterbolete",
-                "devilstooth",
-                "golddropmilkcap",
-                "funeralbell",
-                "pinkbonnet"
+                "destroyingangel",
+                "yellowstainer",
+                "sulfurtuft",
+                "questionablestropharia",
+                "dyerspolypore",
+                "northernreddye",
+                "yellowramaria",
+                "greenearthtongue",
+                "falseearthstar",
+                "desertshaggymane",
+                "artistsconk",
+                "redbeltedconk",
+                "turkeytail",
+                "westernvarnishedconk"
             ]
         },
         {
@@ -29,20 +32,22 @@
             ]
         }
     ],
-    "shape": { "base": "shroomies:detox/choppedcooked/{state}/{type}" },
+    "shape": {
+        "base": "shroomies:mycod-chopped/{state}/{type}"
+    },
     "attributesByType": {
         "*-partbaked": {
             "displaycaseable": true,
             "shelvable": true,
-            "handbook": { "groupBy": [ "cookedchoppedmushroom-*" ] },
+            "handbook": { "groupBy": [ "mdcookedchoppeddtmushroom-*" ] },
             "bakingProperties": {
                 "temp": 100,
                 "levelFrom": 0.25,
                 "levelTo": 0.5,
                 "startScaleY": 1.0,
                 "endScaleY": 0.9,
-                "resultCode": "shroomies:cookedchoppeddtmushroom-{type}-perfect",
-                "initialCode": "shroomies:choppeddtmushroom-{type}"
+                "resultCode": "shroomies:mdcookedchoppeddtmushroom-{type}-perfect",
+                "initialCode": "shroomies:mdchoppeddtmushroom-{type}"
             },
             "onDisplayTransform": {
                 "translation": {
@@ -56,15 +61,15 @@
         "*-perfect": {
             "displaycaseable": true,
             "shelvable": true,
-            "handbook": { "groupBy": [ "cookedchoppeddtmushroom-*" ] },
+            "handbook": { "groupBy": [ "mdcookedchoppeddtmushroom-*" ] },
             "bakingProperties": {
                 "temp": 100,
                 "levelFrom": 0.5,
                 "levelTo": 0.75,
                 "startScaleY": 0.9,
                 "endScaleY": 0.8,
-                "resultCode": "shroomies:cookedchoppeddtmushroom-{type}-charred",
-                "initialCode": "shroomies:cookedchoppeddtmushroom-{type}-partbaked"
+                "resultCode": "shroomies:mdcookedchoppeddtmushroom-{type}-charred",
+                "initialCode": "shroomies:mdcookedchoppeddtmushroom-{type}-partbaked"
             },
             "onDisplayTransform": {
                 "translation": {
@@ -78,14 +83,14 @@
         "*-charred": {
             "displaycaseable": true,
             "shelvable": true,
-            "handbook": { "groupBy": [ "cookedchoppeddtmushroom-*" ] },
+            "handbook": { "groupBy": [ "mdcookedchoppeddtmushroom-*" ] },
             "bakingProperties": {
                 "temp": 100,
                 "levelFrom": 0.75,
                 "levelTo": 1,
                 "startScaleY": 0.8,
                 "endScaleY": 0.7,
-                "initialCode": "shroomies:cookedchoppeddtmushroom-{type}-perfect"
+                "initialCode": "shroomies:mdcookedchoppeddtmushroom-{type}-perfect"
             },
             "onDisplayTransform": {
                 "translation": {
@@ -105,7 +110,7 @@
             "smeltingType": "bake",
             "smeltedStack": {
                 "type": "item",
-                "code": "cookedchoppeddtmushroom-{type}-charred"
+                "code": "mdcookedchoppeddtmushroom-{type}-charred"
             },
             "requiresContainer": false
         },
@@ -116,7 +121,7 @@
             "smeltingType": "bake",
             "smeltedStack": {
                 "type": "item",
-                "code": "cookedchoppeddtmushroom-{type}-charred"
+                "code": "mdcookedchoppeddtmushroom-{type}-charred"
             },
             "requiresContainer": false
         }
@@ -127,170 +132,219 @@
         "expandedfoods": [ "*" ]
     },
     "nutritionPropsByType": {
-        "*-earthball-partbaked": {
-            "saturation": 110,
+        "*-destroyingangel-partbaked": {
+            "saturation": 65,
             "health": 0,
             "foodcategory": "Vegetable"
         },
-        "*-deathcap-partbaked": {
+        "*-yellowstainer-partbaked": {
+            "saturation": 65,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-sulfurtuft-partbaked": {
+            "saturation": 65,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-questionablestropharia-partbaked": {
+            "saturation": 70,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-dyerspolypore-partbaked": {
+            "saturation": 70,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-northernreddye-partbaked": {
             "saturation": 60,
             "health": 0,
             "foodcategory": "Vegetable"
         },
-        "*-elfinsaddle-partbaked": {
-            "saturation": 80,
+        "*-yellowramaria-partbaked": {
+            "saturation": 70,
             "health": 0,
             "foodcategory": "Vegetable"
         },
-        "*-jackolantern-partbaked": {
+        "*-greenearthtongue-partbaked": {
+            "saturation": 60,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-falseearthstar-partbaked": {
+            "saturation": 65,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-desertshaggymane-partbaked": {
             "saturation": 75,
             "health": 0,
             "foodcategory": "Vegetable"
         },
-        "*-devilbolete-partbaked": {
-            "saturation": 100,
+        "*-artistsconk-partbaked": {
+            "saturation": 75,
             "health": 0,
             "foodcategory": "Vegetable"
         },
-        "*-flyagaric-partbaked": {
-            "saturation": 60,
+        "*-westernvarnishedconk-partbaked": {
+            "saturation": 75,
             "health": 0,
             "foodcategory": "Vegetable"
         },
-        "*-bitterbolete-partbaked": {
-            "saturation": 100,
+        "*-turkeytail-partbaked": {
+            "saturation": 75,
             "health": 0,
             "foodcategory": "Vegetable"
         },
-        "*-devilstooth-partbaked": {
-            "saturation": 60,
-            "health": 0,
-            "foodcategory": "Vegetable"
-        },
-        "*-golddropmilkcap-partbaked": {
-            "saturation": 80,
-            "health": 0,
-            "foodcategory": "Vegetable"
-        },
-        "*-funeralbell-partbaked": {
-            "saturation": 60,
-            "health": 0,
-            "foodcategory": "Vegetable"
-        },
-        "*-pinkbonnet-partbaked": {
-            "saturation": 70,
+        "*-redbeltedconk-partbaked": {
+            "saturation": 75,
             "health": 0,
             "foodcategory": "Vegetable"
         },
 
-        "*-earthball-perfect": {
-            "saturation": 150,
-            "health": 0,
-            "foodcategory": "Vegetable"
-        },
-        "*-deathcap-perfect": {
-            "saturation": 75,
-            "health": 0,
-            "foodcategory": "Vegetable"
-        },
-        "*-elfinsaddle-perfect": {
+
+
+        "*-destroyingangel-perfect": {
             "saturation": 105,
             "health": 0,
             "foodcategory": "Vegetable"
         },
-        "*-jackolantern-perfect": {
+        "*-yellowstainer-perfect": {
+            "saturation": 105,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-sulfurtuft-perfect": {
+            "saturation": 105,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-questionablestropharia-perfect": {
+            "saturation": 110,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-dyerspolypore-perfect": {
+            "saturation": 110,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-northernreddye-perfect": {
             "saturation": 100,
             "health": 0,
             "foodcategory": "Vegetable"
         },
-        "*-devilbolete-perfect": {
-            "saturation": 135,
+        "*-yellowramaria-perfect": {
+            "saturation": 110,
             "health": 0,
             "foodcategory": "Vegetable"
         },
-        "*-flyagaric-perfect": {
-            "saturation": 75,
+        "*-greenearthtongue-perfect": {
+            "saturation": 100,
             "health": 0,
             "foodcategory": "Vegetable"
         },
-        "*-bitterbolete-perfect": {
-            "saturation": 135,
-            "health": 0,
-            "foodcategory": "Vegetable"
-        },
-        "*-devilstooth-perfect": {
-            "saturation": 75,
-            "health": 0,
-            "foodcategory": "Vegetable"
-        },
-        "*-golddropmilkcap-perfect": {
+        "*-falseearthstar-perfect": {
             "saturation": 105,
             "health": 0,
             "foodcategory": "Vegetable"
         },
-        "*-funeralbell-perfect": {
-            "saturation": 75,
+        "*-desertshaggymane-perfect": {
+            "saturation": 115,
             "health": 0,
             "foodcategory": "Vegetable"
         },
-        "*-pinkbonnet-perfect": {
-            "saturation": 90,
+        "*-artistsconk-perfect": {
+            "saturation": 115,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-westernvarnishedconk-perfect": {
+            "saturation": 115,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-turkeytail-perfect": {
+            "saturation": 115,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-redbeltedconk-perfect": {
+            "saturation": 115,
             "health": 0,
             "foodcategory": "Vegetable"
         },
 
-        "*-earthball-charred": {
-            "saturation": 120,
+
+
+        "*-destroyingangel-charred": {
+            "saturation": 65,
             "health": 0,
             "foodcategory": "Vegetable"
         },
-        "*-deathcap-charred": {
+        "*-yellowstainer-charred": {
+            "saturation": 65,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-sulfurtuft-charred": {
+            "saturation": 65,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-questionablestropharia-charred": {
             "saturation": 70,
             "health": 0,
             "foodcategory": "Vegetable"
         },
-        "*-elfinsaddle-charred": {
-            "saturation": 90,
-            "health": 0,
-            "foodcategory": "Vegetable"
-        },
-        "*-jackolantern-charred": {
-            "saturation": 85,
-            "health": 0,
-            "foodcategory": "Vegetable"
-        },
-        "*-devilbolete-charred": {
-            "saturation": 110,
-            "health": 0,
-            "foodcategory": "Vegetable"
-        },
-        "*-flyagaric-charred": {
+        "*-dyerspolypore-charred": {
             "saturation": 70,
             "health": 0,
             "foodcategory": "Vegetable"
         },
-        "*-bitterbolete-charred": {
-            "saturation": 110,
+        "*-northernreddye-charred": {
+            "saturation": 60,
             "health": 0,
             "foodcategory": "Vegetable"
         },
-        "*-devilstooth-charred": {
+        "*-yellowramaria-charred": {
             "saturation": 70,
             "health": 0,
             "foodcategory": "Vegetable"
         },
-        "*-golddropmilkcap-charred": {
-            "saturation": 90,
+        "*-greenearthtongue-charred": {
+            "saturation": 60,
             "health": 0,
             "foodcategory": "Vegetable"
         },
-        "*-funeralbell-charred": {
-            "saturation": 70,
+        "*-falseearthstar-charred": {
+            "saturation": 65,
             "health": 0,
             "foodcategory": "Vegetable"
         },
-        "*-pinkbonnet-charred": {
-            "saturation": 80,
+        "*-desertshaggymane-charred": {
+            "saturation": 75,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-artistsconk-charred": {
+            "saturation": 75,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-westernvarnishedconk-charred": {
+            "saturation": 75,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-turkeytail-charred": {
+            "saturation": 75,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-redbeltedconk-charred": {
+            "saturation": 75,
             "health": 0,
             "foodcategory": "Vegetable"
         }

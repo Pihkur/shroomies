@@ -1,0 +1,2375 @@
+[
+    {
+        "file": "game:recipes/cooking/soup",
+        "op": "addeach",
+        "path": "/ingredients/1/validStacks/-",
+        "value": [
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-flyagaric",
+                "shapeElement": "game:bowl/vegetable 1/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group2"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-earthball",
+                "shapeElement": "game:bowl/vegetable 1/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group7"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-deathcap",
+                "shapeElement": "game:bowl/vegetable 1/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group7"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-elfinsaddle",
+                "shapeElement": "game:bowl/vegetable 1/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-jackolantern",
+                "shapeElement": "game:bowl/vegetable 1/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-devilbolete",
+                "shapeElement": "game:bowl/vegetable 1/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-bitterbolete",
+                "shapeElement": "game:bowl/vegetable 1/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-devilstooth",
+                "shapeElement": "game:bowl/vegetable 1/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-golddropmilkcap",
+                "shapeElement": "game:bowl/vegetable 1/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-funeralbell",
+                "shapeElement": "game:bowl/vegetable 1/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group7"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-pinkbonnet",
+                "shapeElement": "game:bowl/vegetable 1/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group7"
+                ]
+            }
+        ],
+        "dependsOn": [
+            {
+                "modid": "expandedfoods"
+            }
+        ]
+    },
+    {
+        "file": "game:recipes/cooking/soup",
+        "op": "addeach",
+        "path": "/ingredients/2/validStacks/-",
+        "value": [
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-flyagaric",
+                "shapeElement": "game:bowl/vegetable 2/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group2"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-earthball",
+                "shapeElement": "game:bowl/vegetable 2/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group7"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-deathcap",
+                "shapeElement": "game:bowl/vegetable 2/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group7"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-elfinsaddle",
+                "shapeElement": "game:bowl/vegetable 2/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-jackolantern",
+                "shapeElement": "game:bowl/vegetable 2/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-devilbolete",
+                "shapeElement": "game:bowl/vegetable 2/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-bitterbolete",
+                "shapeElement": "game:bowl/vegetable 2/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-devilstooth",
+                "shapeElement": "game:bowl/vegetable 2/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-golddropmilkcap",
+                "shapeElement": "game:bowl/vegetable 2/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-funeralbell",
+                "shapeElement": "game:bowl/vegetable 2/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group7"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-pinkbonnet",
+                "shapeElement": "game:bowl/vegetable 2/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group7"
+                ]
+            }
+        ],
+        "dependsOn": [
+            {
+                "modid": "expandedfoods"
+            }
+        ]
+    },
+    {
+        "file": "game:recipes/cooking/soup",
+        "op": "addeach",
+        "path": "/ingredients/3/validStacks/-",
+        "value": [
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-flyagaric",
+                "shapeElement": "game:bowl/vegetable 3/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group2"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-earthball",
+                "shapeElement": "game:bowl/vegetable 3/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group7"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-deathcap",
+                "shapeElement": "game:bowl/vegetable 3/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group7"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-elfinsaddle",
+                "shapeElement": "game:bowl/vegetable 3/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-jackolantern",
+                "shapeElement": "game:bowl/vegetable 3/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-devilbolete",
+                "shapeElement": "game:bowl/vegetable 3/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-bitterbolete",
+                "shapeElement": "game:bowl/vegetable 3/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-devilstooth",
+                "shapeElement": "game:bowl/vegetable 3/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-golddropmilkcap",
+                "shapeElement": "game:bowl/vegetable 3/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-funeralbell",
+                "shapeElement": "game:bowl/vegetable 3/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group7"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-pinkbonnet",
+                "shapeElement": "game:bowl/vegetable 3/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group7"
+                ]
+            }
+        ],
+        "dependsOn": [
+            {
+                "modid": "expandedfoods"
+            }
+        ]
+    },
+    {
+        "file": "game:recipes/cooking/soup",
+        "op": "addeach",
+        "path": "/ingredients/1/validStacks/-",
+        "value": [
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-flyagaric",
+                "shapeElement": "bowl/vegetable 1/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group2"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-earthball",
+                "shapeElement": "bowl/vegetable 1/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group7"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-deathcap",
+                "shapeElement": "bowl/vegetable 1/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group7"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-elfinsaddle",
+                "shapeElement": "bowl/vegetable 1/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-jackolantern",
+                "shapeElement": "bowl/vegetable 1/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-devilbolete",
+                "shapeElement": "bowl/vegetable 1/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-bitterbolete",
+                "shapeElement": "bowl/vegetable 1/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-devilstooth",
+                "shapeElement": "bowl/vegetable 1/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-golddropmilkcap",
+                "shapeElement": "bowl/vegetable 1/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-funeralbell",
+                "shapeElement": "bowl/vegetable 1/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group7"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-pinkbonnet",
+                "shapeElement": "bowl/vegetable 1/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group7"
+                ]
+            }
+        ],
+        "dependsOn": [
+            {
+                "modid": "expandedfoods"
+            }
+        ]
+    },
+    {
+        "file": "game:recipes/cooking/soup",
+        "op": "addeach",
+        "path": "/ingredients/2/validStacks/-",
+        "value": [
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-flyagaric",
+                "shapeElement": "bowl/vegetable 2/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group2"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-earthball",
+                "shapeElement": "bowl/vegetable 2/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group7"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-deathcap",
+                "shapeElement": "bowl/vegetable 2/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group7"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-elfinsaddle",
+                "shapeElement": "bowl/vegetable 2/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-jackolantern",
+                "shapeElement": "bowl/vegetable 2/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-devilbolete",
+                "shapeElement": "bowl/vegetable 2/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-bitterbolete",
+                "shapeElement": "bowl/vegetable 2/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-devilstooth",
+                "shapeElement": "bowl/vegetable 2/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-golddropmilkcap",
+                "shapeElement": "bowl/vegetable 2/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-funeralbell",
+                "shapeElement": "bowl/vegetable 2/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group7"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-pinkbonnet",
+                "shapeElement": "bowl/vegetable 2/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group7"
+                ]
+            }
+        ],
+        "dependsOn": [
+            {
+                "modid": "expandedfoods"
+            }
+        ]
+    },
+    {
+        "file": "game:recipes/cooking/soup",
+        "op": "addeach",
+        "path": "/ingredients/3/validStacks/-",
+        "value": [
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-flyagaric",
+                "shapeElement": "bowl/vegetable 3/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group2"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-earthball",
+                "shapeElement": "bowl/vegetable 3/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group7"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-deathcap",
+                "shapeElement": "bowl/vegetable 3/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group7"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-elfinsaddle",
+                "shapeElement": "bowl/vegetable 3/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-jackolantern",
+                "shapeElement": "bowl/vegetable 3/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-devilbolete",
+                "shapeElement": "bowl/vegetable 3/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-bitterbolete",
+                "shapeElement": "bowl/vegetable 3/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-devilstooth",
+                "shapeElement": "bowl/vegetable 3/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-golddropmilkcap",
+                "shapeElement": "bowl/vegetable 3/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-funeralbell",
+                "shapeElement": "bowl/vegetable 3/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group7"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:choppeddtmushroom-pinkbonnet",
+                "shapeElement": "bowl/vegetable 3/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group7"
+                ]
+            }
+        ],
+        "dependsOn": [
+            {
+                "modid": "expandedfoods"
+            }
+        ]
+    },
+    {
+        "file": "game:recipes/cooking/soup",
+        "op": "addeach",
+        "path": "/ingredients/1/validStacks/-",
+        "value": [
+            {
+                "type": "item",
+                "code": "shroomies:dtmushroom-flyagaric-*",
+                "shapeElement": "bowl/vegetable 1/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group2"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:dtmushroom-earthball-*",
+                "shapeElement": "bowl/vegetable 1/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group7"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:dtmushroom-deathcap-*",
+                "shapeElement": "bowl/vegetable 1/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group7"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:dtmushroom-elfinsaddle-*",
+                "shapeElement": "bowl/vegetable 1/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:dtmushroom-jackolantern-*",
+                "shapeElement": "bowl/vegetable 1/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:dtmushroom-devilbolete-*",
+                "shapeElement": "bowl/vegetable 1/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:dtmushroom-bitterbolete-*",
+                "shapeElement": "bowl/vegetable 1/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:dtmushroom-devilstooth-*",
+                "shapeElement": "bowl/vegetable 1/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:dtmushroom-golddropmilkcap-*",
+                "shapeElement": "bowl/vegetable 1/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:dtmushroom-funeralbell-*",
+                "shapeElement": "bowl/vegetable 1/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group7"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:dtmushroom-pinkbonnet-*",
+                "shapeElement": "bowl/vegetable 1/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group7"
+                ]
+            }
+        ],
+        "dependsOn": [
+            {
+                "modid": "expandedfoods",
+                "invert": true
+            }
+        ]
+    },
+    {
+        "file": "game:recipes/cooking/soup",
+        "op": "addeach",
+        "path": "/ingredients/2/validStacks/-",
+        "value": [
+            {
+                "type": "item",
+                "code": "shroomies:dtmushroom-flyagaric-*",
+                "shapeElement": "bowl/vegetable 2/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group2"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:dtmushroom-earthball-*",
+                "shapeElement": "bowl/vegetable 2/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group7"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:dtmushroom-deathcap-*",
+                "shapeElement": "bowl/vegetable 2/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group7"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:dtmushroom-elfinsaddle-*",
+                "shapeElement": "bowl/vegetable 2/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:dtmushroom-jackolantern-*",
+                "shapeElement": "bowl/vegetable 2/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:dtmushroom-devilbolete-*",
+                "shapeElement": "bowl/vegetable 2/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:dtmushroom-bitterbolete-*",
+                "shapeElement": "bowl/vegetable 2/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:dtmushroom-devilstooth-*",
+                "shapeElement": "bowl/vegetable 2/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:dtmushroom-golddropmilkcap-*",
+                "shapeElement": "bowl/vegetable 2/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:dtmushroom-funeralbell-*",
+                "shapeElement": "bowl/vegetable 2/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group7"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:dtmushroom-pinkbonnet-*",
+                "shapeElement": "bowl/vegetable 2/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group7"
+                ]
+            }
+        ],
+        "dependsOn": [
+            {
+                "modid": "expandedfoods",
+                "invert": true
+            }
+        ]
+    },
+    {
+        "file": "game:recipes/cooking/soup",
+        "op": "addeach",
+        "path": "/ingredients/3/validStacks/-",
+        "value": [
+            {
+                "type": "item",
+                "code": "shroomies:dtmushroom-flyagaric-*",
+                "shapeElement": "bowl/vegetable 3/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group2"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:dtmushroom-earthball-*",
+                "shapeElement": "bowl/vegetable 3/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group7"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:dtmushroom-deathcap-*",
+                "shapeElement": "bowl/vegetable 3/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group7"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:dtmushroom-elfinsaddle-*",
+                "shapeElement": "bowl/vegetable 3/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:dtmushroom-jackolantern-*",
+                "shapeElement": "bowl/vegetable 3/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:dtmushroom-devilbolete-*",
+                "shapeElement": "bowl/vegetable 3/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:dtmushroom-bitterbolete-*",
+                "shapeElement": "bowl/vegetable 3/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:dtmushroom-devilstooth-*",
+                "shapeElement": "bowl/vegetable 3/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:dtmushroom-golddropmilkcap-*",
+                "shapeElement": "bowl/vegetable 3/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group3"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:dtmushroom-funeralbell-*",
+                "shapeElement": "bowl/vegetable 3/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group7"
+                ]
+            },
+            {
+                "type": "item",
+                "code": "shroomies:dtmushroom-pinkbonnet-*",
+                "shapeElement": "bowl/vegetable 3/*",
+                "textureMapping": [
+                    "vegetable",
+                    "group7"
+                ]
+            }
+        ],
+        "dependsOn": [
+            {
+                "modid": "expandedfoods",
+                "invert": true
+            }
+        ]
+    },
+    {
+        "file": "game:recipes/cooking/soup",
+        "op": "addeach",
+        "path": "/ingredients/1/validStacks/-",
+        "value": [
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-destroyingangel",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-yellowstainer",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-sulfurtuft",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-questionablestropharia",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-dyerspolypore",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-northernreddye",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-yellowramaria",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-greenearthtongue",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-falseearthstar",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-desertshaggymane",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-artistsconk",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-redbeltedconk",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-turkeytail",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-westernvarnishedconk",
+                "shapeElement": "bowl/vegetable 1/*"
+            }
+        ],
+        "dependsOn": [
+            {
+                "modid": "mycodiversity"
+            },
+            {
+                "modid": "expandedfoods",
+                "invert": true
+            }
+        ]
+    },
+    {
+        "file": "game:recipes/cooking/soup",
+        "op": "addeach",
+        "path": "/ingredients/2/validStacks/-",
+        "value": [
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-destroyingangel",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-yellowstainer",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-sulfurtuft",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-questionablestropharia",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-dyerspolypore",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-northernreddye",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-yellowramaria",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-greenearthtongue",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-falseearthstar",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-desertshaggymane",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-artistsconk",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-redbeltedconk",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-turkeytail",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-westernvarnishedconk",
+                "shapeElement": "bowl/vegetable 2/*"
+            }
+        ],
+        "dependsOn": [
+            {
+                "modid": "mycodiversity"
+            },
+            {
+                "modid": "expandedfoods",
+                "invert": true
+            }
+        ]
+    },
+    {
+        "file": "game:recipes/cooking/soup",
+        "op": "addeach",
+        "path": "/ingredients/3/validStacks/-",
+        "value": [
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-destroyingangel",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-yellowstainer",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-sulfurtuft",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-questionablestropharia",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-dyerspolypore",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-northernreddye",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-yellowramaria",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-greenearthtongue",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-falseearthstar",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-desertshaggymane",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-artistsconk",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-redbeltedconk",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-turkeytail",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-westernvarnishedconk",
+                "shapeElement": "bowl/vegetable 3/*"
+            }
+        ],
+        "dependsOn": [
+            {
+                "modid": "mycodiversity"
+            },
+            {
+                "modid": "expandedfoods",
+                "invert": true
+            }
+        ]
+    },
+    {
+        "file": "game:recipes/cooking/soup",
+        "op": "addeach",
+        "path": "/ingredients/1/validStacks/-",
+        "value": [
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-destroyingangel",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-yellowstainer",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-sulfurtuft",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-questionablestropharia",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-dyerspolypore",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-northernreddye",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-yellowramaria",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-greenearthtongue",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-falseearthstar",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-desertshaggymane",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-artistsconk",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-redbeltedconk",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-turkeytail",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-westernvarnishedconk",
+                "shapeElement": "bowl/vegetable 1/*"
+            }
+        ],
+        "dependsOn": [
+            {
+                "modid": "mycodiversity"
+            },
+            {
+                "modid": "expandedfoods"
+            }
+        ]
+    },
+    {
+        "file": "game:recipes/cooking/soup",
+        "op": "addeach",
+        "path": "/ingredients/2/validStacks/-",
+        "value": [
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-destroyingangel",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-yellowstainer",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-sulfurtuft",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-questionablestropharia",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-dyerspolypore",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-northernreddye",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-yellowramaria",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-greenearthtongue",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-falseearthstar",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-desertshaggymane",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-artistsconk",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-redbeltedconk",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-turkeytail",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-westernvarnishedconk",
+                "shapeElement": "bowl/vegetable 2/*"
+            }
+        ],
+        "dependsOn": [
+            {
+                "modid": "mycodiversity"
+            },
+            {
+                "modid": "expandedfoods"
+            }
+        ]
+    },
+    {
+        "file": "game:recipes/cooking/soup",
+        "op": "addeach",
+        "path": "/ingredients/3/validStacks/-",
+        "value": [
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-destroyingangel",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-yellowstainer",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-sulfurtuft",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-questionablestropharia",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-dyerspolypore",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-northernreddye",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-yellowramaria",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-greenearthtongue",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-falseearthstar",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-desertshaggymane",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-artistsconk",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-redbeltedconk",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-turkeytail",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppeddtmushroom-westernvarnishedconk",
+                "shapeElement": "bowl/vegetable 3/*"
+            }
+        ],
+        "dependsOn": [
+            {
+                "modid": "mycodiversity"
+            },
+            {
+                "modid": "expandedfoods"
+            }
+        ]
+    },
+    {
+        "file": "game:recipes/cooking/soup",
+        "op": "addeach",
+        "path": "/ingredients/1/validStacks/-",
+        "value": [
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-aniseedfunnel",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-aspenbolete",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-birchbolete",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-blewit",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-bluechanterelle",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-candycap",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-coccora",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-desertshaggymane",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-destroyingangel",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-dyerspolypore",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-falseearthstar",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-flattoppedclubcoral",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-friedchickenmushroom",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-greenearthtongue",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-hawkwing",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-hedgehogmushroom",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-honeymushroom",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-matsutake",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-northernreddye",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-parasol",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-purplefairyclub",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-queenbolete",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-questionablestropharia",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-redramaria",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-shaggymane",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-shrimpmushroom",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-slipperyjack",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-stinkhorn",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-sulfurtuft",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-winterchanterelle",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-yellowramaria",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-yellowstainer",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-artistsconk",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-beefsteakfungus",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-redbeltedconk",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-turkeytail",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-westernvarnishedconk",
+                "shapeElement": "bowl/vegetable 1/*"
+            }
+        ],
+        "dependsOn": [
+            {
+                "modid": "mycodiversity"
+            },
+            {
+                "modid": "expandedfoods"
+            }
+        ]
+    },
+    {
+        "file": "game:recipes/cooking/soup",
+        "op": "addeach",
+        "path": "/ingredients/2/validStacks/-",
+        "value": [
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-aniseedfunnel",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-aspenbolete",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-birchbolete",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-blewit",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-bluechanterelle",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-candycap",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-coccora",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-desertshaggymane",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-destroyingangel",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-dyerspolypore",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-falseearthstar",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-flattoppedclubcoral",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-friedchickenmushroom",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-greenearthtongue",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-hawkwing",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-hedgehogmushroom",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-honeymushroom",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-matsutake",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-northernreddye",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-parasol",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-purplefairyclub",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-queenbolete",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-questionablestropharia",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-redramaria",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-shaggymane",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-shrimpmushroom",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-slipperyjack",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-stinkhorn",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-sulfurtuft",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-winterchanterelle",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-yellowramaria",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-yellowstainer",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-artistsconk",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-beefsteakfungus",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-redbeltedconk",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-turkeytail",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-westernvarnishedconk",
+                "shapeElement": "bowl/vegetable 2/*"
+            }
+        ],
+        "dependsOn": [
+            {
+                "modid": "mycodiversity"
+            },
+            {
+                "modid": "expandedfoods"
+            }
+        ]
+    },
+    {
+        "file": "game:recipes/cooking/soup",
+        "op": "addeach",
+        "path": "/ingredients/3/validStacks/-",
+        "value": [
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-aniseedfunnel",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-aspenbolete",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-birchbolete",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-blewit",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-bluechanterelle",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-candycap",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-coccora",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-desertshaggymane",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-destroyingangel",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-dyerspolypore",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-falseearthstar",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-flattoppedclubcoral",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-friedchickenmushroom",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-greenearthtongue",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-hawkwing",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-hedgehogmushroom",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-honeymushroom",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-matsutake",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-northernreddye",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-parasol",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-purplefairyclub",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-queenbolete",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-questionablestropharia",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-redramaria",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-shaggymane",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-shrimpmushroom",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-slipperyjack",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-stinkhorn",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-sulfurtuft",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-winterchanterelle",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-yellowramaria",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-yellowstainer",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-artistsconk",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-beefsteakfungus",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-redbeltedconk",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-turkeytail",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mdchoppedmushroom-westernvarnishedconk",
+                "shapeElement": "bowl/vegetable 3/*"
+            }
+        ],
+        "dependsOn": [
+            {
+                "modid": "mycodiversity"
+            },
+            {
+                "modid": "expandedfoods"
+            }
+        ]
+    },
+    {
+        "file": "game:recipes/cooking/soup",
+        "op": "addeach",
+        "path": "/ingredients/1/validStacks/-",
+        "value": [
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-destroyingangel",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-yellowstainer",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-sulfurtuft",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-questionablestropharia",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-dyerspolypore",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-northernreddye",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-yellowramaria",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-greenearthtongue",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-falseearthstar",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-desertshaggymane",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-artistsconk",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-redbeltedconk",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-turkeytail",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-westernvarnishedconk",
+                "shapeElement": "bowl/vegetable 1/*"
+            }
+        ],
+        "dependsOn": [
+            {
+                "modid": "mycodiversity"
+            },
+            {
+                "modid": "expandedfoods",
+                "invert": true
+            }
+        ]
+    },
+    {
+        "file": "game:recipes/cooking/soup",
+        "op": "addeach",
+        "path": "/ingredients/2/validStacks/-",
+        "value": [
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-destroyingangel",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-yellowstainer",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-sulfurtuft",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-questionablestropharia",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-dyerspolypore",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-northernreddye",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-yellowramaria",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-greenearthtongue",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-falseearthstar",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-desertshaggymane",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-artistsconk",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-redbeltedconk",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-turkeytail",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-westernvarnishedconk",
+                "shapeElement": "bowl/vegetable 2/*"
+            }
+        ],
+        "dependsOn": [
+            {
+                "modid": "mycodiversity"
+            },
+            {
+                "modid": "expandedfoods",
+                "invert": true
+            }
+        ]
+    },
+    {
+        "file": "game:recipes/cooking/soup",
+        "op": "addeach",
+        "path": "/ingredients/3/validStacks/-",
+        "value": [
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-destroyingangel",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-yellowstainer",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-sulfurtuft",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-questionablestropharia",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-dyerspolypore",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-northernreddye",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-yellowramaria",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-greenearthtongue",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-falseearthstar",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-desertshaggymane",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-artistsconk",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-redbeltedconk",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-turkeytail",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "shroomies:mddtmushroom-westernvarnishedconk",
+                "shapeElement": "bowl/vegetable 3/*"
+            }
+        ],
+        "dependsOn": [
+            {
+                "modid": "mycodiversity"
+            },
+            {
+                "modid": "expandedfoods",
+                "invert": true
+            }
+        ]
+    }
+]

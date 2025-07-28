@@ -1,0 +1,211 @@
+[
+    {
+        "file": "blocktypes/detoxifiedmdmushrooms",
+        "op": "replace",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [
+            {
+                "modid": "mycodiversity"
+            },
+            {
+                "modid": "expandedfoods",
+                "indert": true
+            }
+        ]
+    },
+    {
+        "file": "blocktypes/detoxifiedmushrooms",
+        "op": "replace",
+        "path": "/enabled",
+        "value": false,
+        "dependsOn": [
+            {
+                "modid": "expandedfoods"
+            }
+        ]
+    },
+    {
+        "file": "itemtypes/food/charreddtmushrooms",
+        "op": "replace",
+        "path": "/enabled",
+        "value": false,
+        "dependsOn": [
+            {
+                "modid": "expandedfoods"
+            }
+        ]
+    },
+    {
+        "file": "itemtypes/food/choppeddtmushrooms",
+        "op": "replace",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [
+            {
+                "modid": "expandedfoods"
+            }
+        ]
+    },
+    {
+        "file": "itemtypes/food/cookedchoppeddtmushrooms",
+        "op": "replace",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [
+            {
+                "modid": "expandedfoods"
+            }
+        ]
+    },
+    {
+        "file": "itemtypes/food/md-charreddtmushrooms",
+        "op": "replace",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [
+            {
+                "modid": "mycodiversity"
+            },
+            {
+                "modid": "expandedfoods",
+                "invert": true
+            }
+        ]
+    },
+    {
+        "file": "itemtypes/food/md-charredmushrooms",
+        "op": "replace",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [
+            {
+                "modid": "mycodiversity"
+            },
+            {
+                "modid": "expandedfoods"
+            }
+        ]
+    },
+    {
+        "file": "itemtypes/food/md-choppeddtmushrooms",
+        "op": "replace",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [
+            {
+                "modid": "mycodiversity"
+            },
+            {
+                "modid": "expandedfoods"
+            }
+        ]
+    },
+    {
+        "file": "itemtypes/food/md-choppedmushrooms",
+        "op": "replace",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [
+            {
+                "modid": "mycodiversity"
+            },
+            {
+                "modid": "expandedfoods"
+            }
+        ]
+    },
+    {
+        "file": "itemtypes/food/md-cookedchoppeddtmushrooms",
+        "op": "replace",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [
+            {
+                "modid": "mycodiversity"
+            },
+            {
+                "modid": "expandedfoods"
+            }
+        ]
+    },
+    {
+        "file": "itemtypes/food/md-cookedchoppedmushrooms",
+        "op": "replace",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [
+            {
+                "modid": "mycodiversity"
+            },
+            {
+                "modid": "expandedfoods"
+            }
+        ]
+    },
+    {
+        "file": "recipes/grid/choppedmdmushrooms",
+        "op": "replace",
+        "path": "/enabled",
+        "value": true,
+        "dependsOn": [
+            {
+                "modid": "mycodiversity"
+            },
+            {
+                "modid": "expandedfoods"
+            }
+        ]
+    },
+    {
+        "file": "recipes/barrel/detoxmush",
+        "op": "replace",
+        "path": "/0/enabled",
+        "value": false,
+        "dependsOn": [
+            {
+                "modid": "expandedfoods"
+            }
+        ]
+    },
+    {
+        "file": "recipes/barrel/detoxmush",
+        "op": "replace",
+        "path": "/1/enabled",
+        "value": true,
+        "dependsOn": [
+            {
+                "modid": "mycodiversity"
+            },
+            {
+                "modid": "expandedfoods",
+                "invert": true
+            }
+        ]
+    },
+    {
+        "file": "recipes/barrel/detoxmush",
+        "op": "replace",
+        "path": "/2/enabled",
+        "value": true,
+        "dependsOn": [
+            {
+                "modid": "expandedfoods"
+            }
+        ]
+    },
+    {
+        "file": "recipes/barrel/detoxmush",
+        "op": "replace",
+        "path": "/3/enabled",
+        "value": true,
+        "dependsOn": [
+            {
+                "modid": "mycodiversity"
+            },
+            {
+                "modid": "expandedfoods"
+            }
+        ]
+    }
+]

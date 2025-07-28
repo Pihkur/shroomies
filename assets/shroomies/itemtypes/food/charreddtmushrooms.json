@@ -1,0 +1,188 @@
+{
+    "_comment": "disable when expanded foods is present.",
+    "enabled": true,
+    "code": "cookeddtmushroom",
+    "maxstacksize": 64,
+    "variantgroups": [
+        {
+            "code": "type",
+            "states": [
+                "earthball",
+                "deathcap",
+                "elfinsaddle",
+                "jackolantern",
+                "devilbolete",
+                "flyagaric",
+                "bitterbolete",
+                "devilstooth",
+                "golddropmilkcap",
+                "funeralbell",
+                "pinkbonnet"
+            ]
+        },
+        {
+            "code": "state",
+            "states": [
+                "charred"
+            ]
+        }
+    ],
+    "attributes": {
+        "displaycaseable": true,
+        "shelvable": true
+    },
+    "handbook": { "groupBy": [ "cookeddtmushroom-*" ] },
+    "bakingProperties": {
+        "temp": 100,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "shroomies:cookedcookeddtmushroom-{type}-partbaked"
+    },
+    "onDisplayTransform": {
+        "translation": {
+            "x": 0,
+            "y": -0.125,
+            "z": 0
+        },
+        "scale": 0.75
+    },
+    "shape": {
+        "base": "shroomies:detox/mushroom/{type}"
+    },
+    "creativeinventory": {
+        "general": [ "*" ],
+        "items": [ "*" ],
+        "expandedfoods": [ "*" ]
+    },
+    "nutritionPropsByType": {
+        "*-earthball-*": {
+            "saturation": 110,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-deathcap-*": {
+            "saturation": 60,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-elfinsaddle-*": {
+            "saturation": 80,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-jackolantern-*": {
+            "saturation": 75,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-devilbolete-*": {
+            "saturation": 100,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-flyagaric-*": {
+            "saturation": 60,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-bitterbolete-*": {
+            "saturation": 100,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-devilstooth-*": {
+            "saturation": 60,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-golddropmilkcap-*": {
+            "saturation": 80,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-funeralbell-*": {
+            "saturation": 60,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-pinkbonnet-*": {
+            "saturation": 70,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        }
+    },
+    "combustiblePropsByType": {
+        "*": {
+            "meltingPoint": 150,
+            "meltingDuration": 30,
+            "smeltedRatio": 1,
+            "smeltingType": "bake",
+            "smeltedStack": {
+                "type": "item",
+                "code": "shroomies:cookedcookeddtmushroom-{type}-charred"
+            },
+            "requiresContainer": false
+        }
+    },
+    "transitionablePropsByType": {
+        "*": [
+            {
+                "type": "Perish",
+                "freshHours": { "avg": 432 },
+                "transitionHours": { "avg": 72 },
+                "transitionedStack": {
+                    "type": "item",
+                    "code": "game:rot"
+                },
+                "transitionRatio": 1
+            }
+        ]
+    },
+    "materialDensity": 600,
+    "guiTransform": {
+        "rotation": {
+            "x": 158,
+            "y": 107,
+            "z": 0
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0.2,
+            "z": 0.5
+        },
+        "scale": 3
+    },
+    "groundTransform": {
+        "rotation": {
+            "x": 0,
+            "y": -45,
+            "z": 0
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0,
+            "z": 0.5
+        },
+        "scale": 2.5
+    },
+    "tpHandTransform": {
+        "translation": {
+            "x": -0.93,
+            "y": -0.17,
+            "z": -0.8
+        },
+        "rotation": {
+            "x": 15,
+            "y": -10,
+            "z": -114
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0.1,
+            "z": 0.5
+        },
+        "scale": 0.58
+    }
+}

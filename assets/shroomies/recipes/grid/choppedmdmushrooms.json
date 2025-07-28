@@ -1,0 +1,62 @@
+{
+    "enabled": false,
+    "ingredientPattern": "KM",
+    "recipeGroup": 1,
+    "ingredients": {
+        "K": {
+            "type": "item",
+            "code": "game:knife-*",
+            "isTool": true
+        },
+        "V": {
+            "type": "block",
+            "code": "game:mushroom-*-normal",
+            "name": "mushroom",
+            "allowedVariants": [
+                "aniseedfunnel",
+                "aspenbolete",
+                "birchbolete",
+                "blewit",
+                "bluechanterelle",
+                "candycap",
+                "coccora",
+                "desertshaggymane",
+                "destroyingangel",
+                "dyerspolypore",
+                "falseearthstar",
+                "flattoppedclubcoral",
+                "friedchickenmushroom",
+                "greenearthtongue",
+                "hawkwing",
+                "hedgehogmushroom",
+                "honeymushroom",
+                "matsutake",
+                "northernreddye",
+                "parasol",
+                "purplefairyclub",
+                "queenbolete",
+                "questionablestropharia",
+                "redramaria",
+                "shaggymane",
+                "shrimpmushroom",
+                "slipperyjack",
+                "stinkhorn",
+                "sulfurtuft",
+                "winterchanterelle",
+                "yellowramaria",
+                "yellowstainer",
+                "artistsconk",
+                "beefsteakfungus",
+                "redbeltedconk",
+                "turkeytail",
+                "westernvarnishedconk"
+            ]
+        }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+        "type": "item",
+        "code": "mdchoppedmushroom-{mushroom}"
+    }
+}

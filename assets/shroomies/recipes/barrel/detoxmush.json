@@ -1,7 +1,8 @@
 [
     {
-        "code": "dtflyagaric",
-        "sealHours": 336,
+        "enabled": true,
+        "code": "dtshrooms",
+        "sealHours": 48,
         "ingredients": [
             {
                 "type": "item",
@@ -11,19 +12,34 @@
             },
             {
                 "type": "block",
-                "code": "game:mushroom-flyagaric-normal",
+                "code": "game:mushroom-*-normal",
+                "name": "mushroom",
+                "allowedVariants": [
+                    "flyagaric",
+                    "bitterbolete",
+                    "deathcap",
+                    "devilstooth",
+                    "elfinsaddle",
+                    "jackolantern",
+                    "funeralbell",
+                    "pinkbonnet",
+                    "earthball",
+                    "golddropmilkcap",
+                    "devilbolete"
+                ],
                 "quantity": 1
             }
         ],
         "output": {
             "type": "block",
-            "code": "shroomies:dtmushroom-flyagaric-normal",
+            "code": "shroomies:dtmushroom-{mushroom}-normal",
             "stackSize": 1
         }
     },
     {
-        "code": "dtearthball",
-        "sealHours": 336,
+        "enabled": false,
+        "code": "dtmdshrooms",
+        "sealHours": 48,
         "ingredients": [
             {
                 "type": "item",
@@ -33,19 +49,37 @@
             },
             {
                 "type": "block",
-                "code": "game:mushroom-earthball-normal",
+                "code": "game:mushroom-*-normal",
+                "name": "mushroom",
+                "allowedVariants": [
+                    "destroyingangel",
+                    "yellowstainer",
+                    "sulfurtuft",
+                    "questionablestropharia",
+                    "dyerspolypore",
+                    "northernreddye",
+                    "yellowramaria",
+                    "greenearthtongue",
+                    "falseearthstar",
+                    "desertshaggymane",
+                    "artistsconk",
+                    "redbeltedconk",
+                    "turkeytail",
+                    "westernvarnishedconk"
+                ],
                 "quantity": 1
             }
         ],
         "output": {
             "type": "block",
-            "code": "shroomies:dtmushroom-earthball-normal",
+            "code": "shroomies:mddtmushroom-{mushroom}-normal",
             "stackSize": 1
         }
     },
     {
-        "code": "dtdeathcap",
-        "sealHours": 336,
+        "enabled": false,
+        "code": "dtcshrooms",
+        "sealHours": 48,
         "ingredients": [
             {
                 "type": "item",
@@ -55,19 +89,34 @@
             },
             {
                 "type": "block",
-                "code": "game:mushroom-deathcap-normal",
+                "code": "expandedfoods:choppedmushroom-*",
+                "name": "mushroom",
+                "allowedVariants": [
+                    "flyagaric",
+                    "bitterbolete",
+                    "deathcap",
+                    "devilstooth",
+                    "elfinsaddle",
+                    "jackolantern",
+                    "funeralbell",
+                    "pinkbonnet",
+                    "earthball",
+                    "golddropmilkcap",
+                    "devilbolete"
+                ],
                 "quantity": 1
             }
         ],
         "output": {
             "type": "block",
-            "code": "shroomies:dtmushroom-deathcap-normal",
+            "code": "shroomies:choppeddtmushroom-{mushroom}",
             "stackSize": 1
         }
     },
     {
-        "code": "dtelfinsaddle",
-        "sealHours": 336,
+        "enabled": false,
+        "code": "dtcshrooms",
+        "sealHours": 48,
         "ingredients": [
             {
                 "type": "item",
@@ -77,168 +126,32 @@
             },
             {
                 "type": "block",
-                "code": "game:mushroom-elfinsaddle-normal",
+                "code": "shroomies:mdchoppedmushroom-*",
+                "name": "mushroom",
+                "allowedVariants": [
+                    "desertshaggymane",
+                    "destroyingangel",
+                    "dyerspolypore",
+                    "falseearthstar",
+                    "greenearthtongue",
+                    "northernreddye",
+                    "questionablestropharia",
+                    "sulfurtuft",
+                    "yellowramaria",
+                    "yellowstainer",
+                    "artistsconk",
+                    "redbeltedconk",
+                    "turkeytail",
+                    "westernvarnishedconk"
+                ],
                 "quantity": 1
             }
         ],
         "output": {
             "type": "block",
-            "code": "shroomies:dtmushroom-elfinsaddle-normal",
-            "stackSize": 1
-        }
-    },
-    {
-        "code": "dtjackolantern",
-        "sealHours": 336,
-        "ingredients": [
-            {
-                "type": "item",
-                "code": "game:brineportion",
-                "litres": 2,
-                "consumeLitres": 2
-            },
-            {
-                "type": "block",
-                "code": "game:mushroom-jackolantern-normal",
-                "quantity": 1
-            }
-        ],
-        "output": {
-            "type": "block",
-            "code": "shroomies:dtmushroom-jackolantern-normal",
-            "stackSize": 1
-        }
-    },
-    {
-        "code": "dtdevilbolete",
-        "sealHours": 336,
-        "ingredients": [
-            {
-                "type": "item",
-                "code": "game:brineportion",
-                "litres": 2,
-                "consumeLitres": 2
-            },
-            {
-                "type": "block",
-                "code": "game:mushroom-devilbolete-normal",
-                "quantity": 1
-            }
-        ],
-        "output": {
-            "type": "block",
-            "code": "shroomies:dtmushroom-devilbolete-normal",
-            "stackSize": 1
-        }
-    },
-    {
-        "code": "dtbitterbolete",
-        "sealHours": 336,
-        "ingredients": [
-            {
-                "type": "item",
-                "code": "game:brineportion",
-                "litres": 2,
-                "consumeLitres": 2
-            },
-            {
-                "type": "block",
-                "code": "game:mushroom-bitterbolete-normal",
-                "quantity": 1
-            }
-        ],
-        "output": {
-            "type": "block",
-            "code": "shroomies:dtmushroom-bitterbolete-normal",
-            "stackSize": 1
-        }
-    },
-    {
-        "code": "dtdevilstooth",
-        "sealHours": 336,
-        "ingredients": [
-            {
-                "type": "item",
-                "code": "game:brineportion",
-                "litres": 2,
-                "consumeLitres": 2
-            },
-            {
-                "type": "block",
-                "code": "game:mushroom-devilstooth-normal",
-                "quantity": 1
-            }
-        ],
-        "output": {
-            "type": "block",
-            "code": "shroomies:dtmushroom-devilstooth-normal",
-            "stackSize": 1
-        }
-    },
-    {
-        "code": "dtgolddropmilkcap",
-        "sealHours": 336,
-        "ingredients": [
-            {
-                "type": "item",
-                "code": "game:brineportion",
-                "litres": 2,
-                "consumeLitres": 2
-            },
-            {
-                "type": "block",
-                "code": "game:mushroom-golddropmilkcap-normal",
-                "quantity": 1
-            }
-        ],
-        "output": {
-            "type": "block",
-            "code": "shroomies:dtmushroom-golddropmilkcap-normal",
-            "stackSize": 1
-        }
-    },
-    {
-        "code": "dtfuneralbell",
-        "sealHours": 336,
-        "ingredients": [
-            {
-                "type": "item",
-                "code": "game:brineportion",
-                "litres": 2,
-                "consumeLitres": 2
-            },
-            {
-                "type": "block",
-                "code": "game:mushroom-funeralbell-normal-north",
-                "quantity": 1
-            }
-        ],
-        "output": {
-            "type": "block",
-            "code": "shroomies:dtmushroom-funeralbell-normal",
-            "stackSize": 1
-        }
-    },
-    {
-        "code": "dtpinkbonnet",
-        "sealHours": 336,
-        "ingredients": [
-            {
-                "type": "item",
-                "code": "game:brineportion",
-                "litres": 2,
-                "consumeLitres": 2
-            },
-            {
-                "type": "block",
-                "code": "game:mushroom-pinkbonnet-normal-north",
-                "quantity": 1
-            }
-        ],
-        "output": {
-            "type": "block",
-            "code": "shroomies:dtmushroom-pinkbonnet-normal",
+            "code": "shroomies:mdchoppeddtmushroom-{mushroom}",
             "stackSize": 1
         }
     }
 ]
+

@@ -6,7 +6,7 @@
     },
     {
         "file": "expandedfoods:itemtypes/food/choppedmushroom",
-        "op": "add",
+        "op": "addmerge",
         "path": "/attributes/nutritionPropsWhenInMeal",
         "value": {
             "satietyByType": {

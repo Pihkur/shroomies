@@ -1,0 +1,206 @@
+{
+    "_comment": "Disable when expanded foods is present.",
+    "enabled": false,
+    "code": "mdcookeddtmushroom",
+    "maxstacksize": 64,
+    "variantgroups": [
+        {
+            "code": "type",
+            "states": [
+                "desertshaggymane",
+                "destroyingangel",
+                "dyerspolypore",
+                "falseearthstar",
+                "greenearthtongue",
+                "northernreddye",
+                "questionablestropharia",
+                "sulfurtuft",
+                "yellowramaria",
+                "yellowstainer",
+                "artistsconk",
+                "redbeltedconk",
+                "turkeytail",
+                "westernvarnishedconk"
+            ]
+        },
+        {
+            "code": "state",
+            "states": [
+                "charred"
+            ]
+        }
+    ],
+    "attributes": {
+        "displaycaseable": true,
+        "shelvable": true
+    },
+    "handbook": { "groupBy": [ "mdcookeddtmushroom-*" ] },
+    "bakingProperties": {
+        "temp": 100,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "shroomies:mdcookeddtmushroom-{type}-partbaked"
+    },
+    "onDisplayTransform": {
+        "translation": {
+            "x": 0,
+            "y": -0.125,
+            "z": 0
+        },
+        "scale": 0.75
+    },
+    "shape": {
+        "base": "shroomies:mycod/{type}"
+    },
+    "creativeinventory": {
+        "general": [ "*" ],
+        "items": [ "*" ],
+        "expandedfoods": [ "*" ]
+    },
+    "nutritionPropsByType": {
+        "*-destroyingangel": {
+            "saturation": 55,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-yellowstainer": {
+            "saturation": 55,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-sulfurtuft": {
+            "saturation": 55,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-questionablestropharia": {
+            "saturation": 60,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-dyerspolypore": {
+            "saturation": 60,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-northernreddye": {
+            "saturation": 50,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-yellowramaria": {
+            "saturation": 60,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-greenearthtongue": {
+            "saturation": 50,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-falseearthstar": {
+            "saturation": 55,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-desertshaggymane": {
+            "saturation": 65,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-artistsconk": {
+            "saturation": 65,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-westernvarnishedconk": {
+            "saturation": 65,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-turkeytail": {
+            "saturation": 65,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-redbeltedconk": {
+            "saturation": 65,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        }
+    },
+    "combustiblePropsByType": {
+        "*": {
+            "meltingPoint": 150,
+            "meltingDuration": 30,
+            "smeltedRatio": 1,
+            "smeltingType": "bake",
+            "smeltedStack": {
+                "type": "item",
+                "code": "shroomies:mdcookeddtmushroom-{type}-charred"
+            },
+            "requiresContainer": false
+        }
+    },
+    "transitionablePropsByType": {
+        "*": [
+            {
+                "type": "Perish",
+                "freshHours": { "avg": 432 },
+                "transitionHours": { "avg": 72 },
+                "transitionedStack": {
+                    "type": "item",
+                    "code": "game:rot"
+                },
+                "transitionRatio": 1
+            }
+        ]
+    },
+    "materialDensity": 600,
+    "guiTransform": {
+        "rotation": {
+            "x": 158,
+            "y": 107,
+            "z": 0
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0.2,
+            "z": 0.5
+        },
+        "scale": 3
+    },
+    "groundTransform": {
+        "rotation": {
+            "x": 0,
+            "y": -45,
+            "z": 0
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0,
+            "z": 0.5
+        },
+        "scale": 2.5
+    },
+    "tpHandTransform": {
+        "translation": {
+            "x": -0.93,
+            "y": -0.17,
+            "z": -0.8
+        },
+        "rotation": {
+            "x": 15,
+            "y": -10,
+            "z": -114
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0.1,
+            "z": 0.5
+        },
+        "scale": 0.58
+    }
+}

@@ -1,42 +1,41 @@
 {
-    "_comment": "disable when the expandedfoods mod is installed."
-    "enabled": true,
-    "code": "dtmushroom",
+    "_comment": "enable when mycodiversity is present.",
+    "enabled": false,
+    "code": "mddtmushroom",
     "class": "BlockMushroom",
     "variantgroups": [
-        { "loadFromProperties": "game:block/mushroom" },
+        {
+            "loadFromProperties": "shroomies:block/mushroom"
+        },
         {
             "code": "state",
             "states": [ "normal", "harvested" ]
         }
     ],
     "skipVariants": [
-        "dtmushroom-shiitake-*",
-        "dtmushroom-livermushroom-*",
-        "dtmushroom-deerear-*",
-        "dtmushroom-reishi-*",
-        "dtmushroom-whiteoyster-*",
-        "dtmushroom-tinderhoof-*",
-        "dtmushroom-pinkoyster-*",
-        "dtmushroom-dryadsaddle-*",
-        "dtmushroom-chickenofthewoods-*",
-        "dtmushroom-beardedtooth-*",
-        "dtmushroom-witchhat-*",
-        "dtmushroom-violetwebcap-*",
-        "dtmushroom-saffronmilkcap-*",
-        "dtmushroom-redwinecap-*",
-        "dtmushroom-puffball-*",
-        "dtmushroom-paddystraw-*",
-        "dtmushroom-orangeoakbolete-*",
-        "dtmushroom-lobster-*",
-        "dtmushroom-kingbolete-*",
-        "dtmushroom-indigomilkcap-*",
-        "dtmushroom-greencrackedrussula-*",
-        "dtmushroom-commonmorel-*",
-        "dtmushroom-chanterelle-*",
-        "dtmushroom-blacktrumpet-*",
-        "dtmushroom-almondmushroom-*",
-        "dtmushroom-fieldmushroom-*"
+        "mddtmushroom-aniseedfunnel-*",
+        "mddtmushroom-aspenbolete-*",
+        "mddtmushroom-beefsteakfungus-*",
+        "mddtmushroom-birchbolete-*",
+        "mddtmushroom-blewit-*",
+        "mddtmushroom-bluechanterelle-*",
+        "mddtmushroom-candycap-*",
+        "mddtmushroom-coccora-*",
+        "mddtmushroom-flattoppedclubcoral-*",
+        "mddtmushroom-friedchickenmushroom-*",
+        "mddtmushroom-hawkwing-*",
+        "mddtmushroom-hedgehogmushroom-*",
+        "mddtmushroom-honeymushroom-*",
+        "mddtmushroom-matsutake-*",
+        "mddtmushroom-parasol-*",
+        "mddtmushroom-purplefairyclub-*",
+        "mddtmushroom-queenbolete-*",
+        "mddtmushroom-redramaria-*",
+        "mddtmushroom-shaggymane-*",
+        "mddtmushroom-shrimpmushroom-*",
+        "mddtmushroom-slipperyjack-*",
+        "mddtmushroom-stinkhorn-*",
+        "mddtmushroom-winterchanterelle-*"
     ],
     "attributes": {
         "mushroomProps": {
@@ -46,31 +45,24 @@
         "forageStatAffected": true,
         "nutritionPropsWhenInMeal": {
             "satietyByType": {
-                "dtmushroom-flyagaric-*": 75,
-                "dtmushroom-earthball-*": 150,
-                "dtmushroom-deathcap-*": 75,
-                "dtmushroom-elfinsaddle-*": 105,
-                "dtmushroom-jackolantern-*": 100,
-                "dtmushroom-devilbolete-*": 135,
-                "dtmushroom-bitterbolete-*": 135,
-                "dtmushroom-devilstooth-*": 75,
-                "dtmushroom-golddropmilkcap-*": 105,
-                "dtmushroom-funeralbell-*": 75,
-                "dtmushroom-pinkbonnet-*": 90
+                "*-destroyingangel": 85,
+                "*-yellowstainer": 85,
+                "*-sulfurtuft": 85,
+                "*-questionablestropharia": 90,
+                "*-dyerspolypore": 90,
+                "*-northernreddye": 75,
+                "*-yellowramaria": 90,
+                "*-greenearthtongue": 75,
+                "*-falseearthstar": 85,
+                "*-desertshaggymane": 100,
+                "*-artistsconk": 100,
+                "*-redbeltedconk": 100,
+                "*-turkeytail": 100,
+                "*-westernvarnishedconk": 100
             },
             "foodcategory": "Vegetable",
             "healthByType": {
-                "dtmushroom-flyagaric-*": 0,
-                "dtmushroom-earthball-*": 0,
-                "dtmushroom-deathcap-*": 0,
-                "dtmushroom-elfinsaddle-*": 0,
-                "dtmushroom-jackolantern-*": 0,
-                "dtmushroom-devilbolete-*": 0,
-                "dtmushroom-bitterbolete-*": 0,
-                "dtmushroom-devilstooth-*": 0,
-                "dtmushroom-golddropmilkcap-*": 0,
-                "dtmushroom-funeralbell-*": 0,
-                "dtmushroom-pinkbonnet-*": 0
+                "*": 0
             }
         },
         "plantContainable": {
@@ -89,58 +81,73 @@
         }
     },
     "nutritionPropsByType": {
-        "dtmushroom-flyagaric-*": {
+        "*-destroyingangel": {
+            "saturation": 55,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-yellowstainer": {
+            "saturation": 55,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-sulfurtuft": {
+            "saturation": 55,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-questionablestropharia": {
+            "saturation": 60,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-dyerspolypore": {
+            "saturation": 60,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "*-northernreddye": {
             "saturation": 50,
             "health": 0,
             "foodcategory": "Vegetable"
         },
-        "dtmushroom-earthball-*": {
-            "saturation": 100,
+        "*-yellowramaria": {
+            "saturation": 60,
             "health": 0,
             "foodcategory": "Vegetable"
         },
-        "dtmushroom-deathcap-*": {
+        "*-greenearthtongue": {
             "saturation": 50,
             "health": 0,
             "foodcategory": "Vegetable"
         },
-        "dtmushroom-elfinsaddle-*": {
-            "saturation": 70,
+        "*-falseearthstar": {
+            "saturation": 55,
             "health": 0,
             "foodcategory": "Vegetable"
         },
-        "dtmushroom-jackolantern-*": {
+        "*-desertshaggymane": {
             "saturation": 65,
             "health": 0,
             "foodcategory": "Vegetable"
         },
-        "dtmushroom-devilbolete-*": {
-            "saturation": 90,
+        "*-artistsconk": {
+            "saturation": 65,
             "health": 0,
             "foodcategory": "Vegetable"
         },
-        "dtmushroom-bitterbolete-*": {
-            "saturation": 90,
+        "*-westernvarnishedconk": {
+            "saturation": 65,
             "health": 0,
             "foodcategory": "Vegetable"
         },
-        "dtmushroom-devilstooth-*": {
-            "saturation": 50,
+        "*-turkeytail": {
+            "saturation": 65,
             "health": 0,
             "foodcategory": "Vegetable"
         },
-        "dtmushroom-golddropmilkcap-*": {
-            "saturation": 70,
-            "health": 0,
-            "foodcategory": "Vegetable"
-        },
-        "dtmushroom-funeralbell-*": {
-            "saturation": 50,
-            "health": 0,
-            "foodcategory": "Vegetable"
-        },
-        "dtmushroom-pinkbonnet-*": {
-            "saturation": 60,
+        "*-redbeltedconk": {
+            "saturation": 65,
             "health": 0,
             "foodcategory": "Vegetable"
         }
@@ -153,7 +160,7 @@
             "smeltingType": "cook",
             "smeltedStack": {
                 "type": "item",
-                "code": "shroomies:cookeddtmushroom-{mushroom}-charred"
+                "code": "shroomies:mdcookeddtmushroom-{mushroom}-charred"
             },
             "requiresContainer": false
         }
@@ -164,10 +171,10 @@
     },
     "drawtype": "JSON",
     "shape": {
-        "base": "game:block/plant/mushroom/{mushroom}/{state}*"
+        "base": "mycodiversity:item/food/mushroom/{mushroom}"
     },
     "shapeInventory": {
-        "base": "game:item/food/mushroom/{mushroom}"
+        "base": "mycodiversity:item/food/mushroom/{mushroom}"
     },
     "doNotRenderAtLod2": true,
     "randomDrawOffset": false,
@@ -258,7 +265,7 @@
     "drops": [
         {
             "type": "block",
-            "code": "dtmushroom-{mushroom}-normal",
+            "code": "mddtmushroom-{mushroom}-normal",
             "quantity": {
                 "avg": 1,
                 "var": 0
