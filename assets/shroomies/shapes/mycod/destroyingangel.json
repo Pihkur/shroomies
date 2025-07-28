@@ -1,0 +1,85 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"destroyingangel": "shroomies:mushroom/charred/destroyingangel"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#destroyingangel", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"east": { "texture": "#destroyingangel", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"south": { "texture": "#destroyingangel", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"west": { "texture": "#destroyingangel", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"up": { "texture": "#destroyingangel", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#destroyingangel", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+			},
+			"children": [
+				{
+					"name": "stem3",
+					"from": [ -0.8, 0.0, -0.8 ],
+					"to": [ 0.7, 3.5, 0.7 ],
+					"faces": {
+						"north": { "texture": "#destroyingangel", "uv": [ 0.5, 7.0, 2.0, 10.5 ] },
+						"east": { "texture": "#destroyingangel", "uv": [ 1.0, 9.0, 2.5, 12.5 ] },
+						"south": { "texture": "#destroyingangel", "uv": [ 1.0, 9.5, 2.5, 13.0 ] },
+						"west": { "texture": "#destroyingangel", "uv": [ 1.0, 8.0, 2.5, 11.5 ] }
+					},
+					"children": [
+						{
+							"name": "foot",
+							"from": [ -0.4, -0.1, -0.4 ],
+							"to": [ 1.8, 2.9, 1.8 ],
+							"rotationOrigin": [ 0.8, -0.1, 0.8 ],
+							"faces": {
+								"north": { "texture": "#destroyingangel", "uv": [ 4.5, 12.5, 6.5, 15.5 ] },
+								"east": { "texture": "#destroyingangel", "uv": [ 6.0, 12.5, 8.0, 15.5 ] },
+								"south": { "texture": "#destroyingangel", "uv": [ 3.5, 12.5, 5.5, 15.5 ] },
+								"west": { "texture": "#destroyingangel", "uv": [ 5.0, 12.5, 7.0, 15.5 ] },
+								"down": { "texture": "#destroyingangel", "uv": [ 0.0, 13.5, 2.0, 15.5 ] }
+							}
+						},
+						{
+							"name": "cap4",
+							"from": [ -1.5, 3.5, -1.5 ],
+							"to": [ 3.0, 5.0, 3.0 ],
+							"rotationOrigin": [ 0.8, 0.0, 0.8 ],
+							"faces": {
+								"north": { "texture": "#destroyingangel", "uv": [ 11.0, 7.0, 15.5, 8.5 ] },
+								"east": { "texture": "#destroyingangel", "uv": [ 11.5, 7.0, 16.0, 8.5 ] },
+								"south": { "texture": "#destroyingangel", "uv": [ 11.0, 7.0, 15.5, 8.5 ] },
+								"west": { "texture": "#destroyingangel", "uv": [ 9.5, 7.0, 14.0, 8.5 ] },
+								"up": { "texture": "#destroyingangel", "uv": [ 5.5, 4.5, 10.0, 9.0 ] },
+								"down": { "texture": "#destroyingangel", "uv": [ 3.5, 8.0, 8.0, 12.5 ] }
+							},
+							"children": [
+								{
+									"name": "cap5",
+									"from": [ 0.5, 1.5, 0.5 ],
+									"to": [ 4.0, 2.5, 4.0 ],
+									"rotationOrigin": [ 0.0, 0.5, 0.0 ],
+									"faces": {
+										"north": { "texture": "#destroyingangel", "uv": [ 11.0, 4.5, 14.5, 5.5 ] },
+										"east": { "texture": "#destroyingangel", "uv": [ 11.0, 5.0, 14.5, 6.0 ] },
+										"south": { "texture": "#destroyingangel", "uv": [ 11.0, 4.5, 14.5, 5.5 ] },
+										"west": { "texture": "#destroyingangel", "uv": [ 10.5, 4.5, 14.0, 5.5 ] },
+										"up": { "texture": "#destroyingangel", "uv": [ 11.0, 1.5, 14.5, 5.0 ] }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

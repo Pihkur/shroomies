@@ -1,0 +1,91 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"club": "shroomies:mushroom/charred/club"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Stem13",
+					"from": [ -0.5, 0.0, 0.0 ],
+					"to": [ 0.5, 1.0, 1.0 ],
+					"rotationOrigin": [ -0.4, -0.4, -0.4 ],
+					"rotationX": -19.0,
+					"rotationY": 55.0,
+					"rotationZ": 28.0,
+					"faces": {
+						"north": { "texture": "#club", "uv": [ 8.5, 13.0, 9.5, 14.0 ] },
+						"east": { "texture": "#club", "uv": [ 9.0, 12.0, 10.0, 13.0 ] },
+						"south": { "texture": "#club", "uv": [ 8.5, 12.5, 9.5, 13.5 ] },
+						"west": { "texture": "#club", "uv": [ 9.0, 12.5, 10.0, 13.5 ] },
+						"down": { "texture": "#club", "uv": [ 9.0, 12.0, 10.0, 13.0 ] }
+					},
+					"children": [
+						{
+							"name": "Cube14",
+							"from": [ -0.2, 0.8, -0.2 ],
+							"to": [ 1.2, 1.8, 1.2 ],
+							"rotationOrigin": [ 0.5, 0.8, 0.4 ],
+							"rotationZ": -14.0,
+							"faces": {
+								"north": { "texture": "#club", "uv": [ 8.5, 11.0, 9.5, 12.0 ], "rotation": 180 },
+								"east": { "texture": "#club", "uv": [ 9.0, 9.5, 10.0, 10.5 ], "rotation": 180 },
+								"south": { "texture": "#club", "uv": [ 8.5, 10.5, 9.5, 11.5 ], "rotation": 180 },
+								"west": { "texture": "#club", "uv": [ 8.5, 9.0, 9.5, 10.0 ], "rotation": 180 },
+								"down": { "texture": "#club", "uv": [ 8.5, 10.0, 9.5, 11.0 ] }
+							},
+							"children": [
+								{
+									"name": "Cube15",
+									"from": [ -0.3, 0.8, -0.3 ],
+									"to": [ 1.7, 1.8, 1.7 ],
+									"rotationOrigin": [ 0.7, 0.8, 0.7 ],
+									"rotationY": 8.0,
+									"rotationZ": -14.0,
+									"faces": {
+										"north": { "texture": "#club", "uv": [ 8.5, 6.5, 10.5, 7.5 ] },
+										"east": { "texture": "#club", "uv": [ 8.0, 6.5, 10.0, 7.5 ] },
+										"south": { "texture": "#club", "uv": [ 8.5, 5.5, 10.5, 6.5 ] },
+										"west": { "texture": "#club", "uv": [ 8.0, 6.0, 10.0, 7.0 ] },
+										"down": { "texture": "#club", "uv": [ 8.0, 5.5, 10.0, 7.5 ] }
+									},
+									"children": [
+										{
+											"name": "cap16",
+											"from": [ -0.5, 0.8, -0.5 ],
+											"to": [ 2.5, 1.8, 2.5 ],
+											"rotationOrigin": [ 1.0, 0.8, 1.0 ],
+											"rotationX": 14.0,
+											"rotationZ": 6.0,
+											"faces": {
+												"north": { "texture": "#club", "uv": [ 8.0, 2.5, 11.0, 3.5 ] },
+												"east": { "texture": "#club", "uv": [ 9.0, 3.0, 12.0, 4.0 ] },
+												"south": { "texture": "#club", "uv": [ 8.5, 5.0, 11.5, 6.0 ] },
+												"west": { "texture": "#club", "uv": [ 8.5, 4.5, 11.5, 5.5 ] },
+												"up": { "texture": "#club", "uv": [ 8.5, 1.0, 11.5, 4.0 ] },
+												"down": { "texture": "#club", "uv": [ 8.5, 2.0, 11.5, 5.0 ] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

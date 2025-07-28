@@ -1,0 +1,68 @@
+{
+	"editor": {
+		"collapsedPaths": "Root,Root/origin/beeg/medium2,Root/origin/beeg/medium3,Root/origin/beeg/medium4",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"yellowstainer": "shroomies:mushroom/charred/yellowstainer"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 6.7, 0.0, 6.7 ],
+			"to": [ 6.7, 0.0, 6.7 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "stem3",
+					"from": [ 0.5, 0.0, 0.5 ],
+					"to": [ 2.0, 3.5, 2.0 ],
+					"rotationOrigin": [ 0.0, 0.5, 0.0 ],
+					"faces": {
+						"north": { "texture": "#yellowstainer", "uv": [ 13.5, 3.5, 15.0, 7.0 ] },
+						"east": { "texture": "#yellowstainer", "uv": [ 11.5, 5.0, 13.0, 8.5 ] },
+						"south": { "texture": "#yellowstainer", "uv": [ 6.5, 1.5, 8.0, 5.0 ] },
+						"west": { "texture": "#yellowstainer", "uv": [ 3.5, 6.0, 5.0, 9.5 ] },
+						"down": { "texture": "#yellowstainer", "uv": [ 11.0, 5.0, 12.5, 6.5 ] }
+					},
+					"children": [
+						{
+							"name": "cap4",
+							"from": [ -1.5, 3.5, -1.5 ],
+							"to": [ 3.0, 4.5, 3.0 ],
+							"rotationOrigin": [ 0.5, 0.0, 0.5 ],
+							"faces": {
+								"north": { "texture": "#yellowstainer", "uv": [ 9.0, 8.0, 13.5, 9.0 ] },
+								"east": { "texture": "#yellowstainer", "uv": [ 9.0, 6.0, 13.5, 7.0 ] },
+								"south": { "texture": "#yellowstainer", "uv": [ 9.5, 7.5, 14.0, 8.5 ] },
+								"west": { "texture": "#yellowstainer", "uv": [ 8.5, 7.5, 13.0, 8.5 ] },
+								"up": { "texture": "#yellowstainer", "uv": [ 6.0, 1.5, 10.5, 6.0 ] },
+								"down": { "texture": "#yellowstainer", "uv": [ 10.5, 10.0, 15.0, 14.5 ] }
+							},
+							"children": [
+								{
+									"name": "cap5",
+									"from": [ 0.5, 1.0, 0.5 ],
+									"to": [ 4.0, 1.5, 4.0 ],
+									"faces": {
+										"north": { "texture": "#yellowstainer", "uv": [ 4.5, 6.0, 8.0, 6.5 ] },
+										"east": { "texture": "#yellowstainer", "uv": [ 7.0, 6.5, 10.5, 7.0 ] },
+										"south": { "texture": "#yellowstainer", "uv": [ 10.0, 6.5, 13.5, 7.0 ] },
+										"west": { "texture": "#yellowstainer", "uv": [ 10.5, 6.0, 14.0, 6.5 ] },
+										"up": { "texture": "#yellowstainer", "uv": [ 2.0, 9.5, 5.5, 13.0 ] }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}
