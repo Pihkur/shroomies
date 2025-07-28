@@ -1,0 +1,268 @@
+{
+    "_comment": "disable when the expandedfoods mod is installed."
+    "enabled": true,
+    "code": "dtmushroom",
+    "class": "BlockMushroom",
+    "variantgroups": [
+        { "loadFromProperties": "game:block/mushroom" },
+        {
+            "code": "state",
+            "states": [ "normal", "harvested" ]
+        }
+    ],
+    "skipVariants": [
+        "dtmushroom-shiitake-*",
+        "dtmushroom-livermushroom-*",
+        "dtmushroom-deerear-*",
+        "dtmushroom-reishi-*",
+        "dtmushroom-whiteoyster-*",
+        "dtmushroom-tinderhoof-*",
+        "dtmushroom-pinkoyster-*",
+        "dtmushroom-dryadsaddle-*",
+        "dtmushroom-chickenofthewoods-*",
+        "dtmushroom-beardedtooth-*",
+        "dtmushroom-witchhat-*",
+        "dtmushroom-violetwebcap-*",
+        "dtmushroom-saffronmilkcap-*",
+        "dtmushroom-redwinecap-*",
+        "dtmushroom-puffball-*",
+        "dtmushroom-paddystraw-*",
+        "dtmushroom-orangeoakbolete-*",
+        "dtmushroom-lobster-*",
+        "dtmushroom-kingbolete-*",
+        "dtmushroom-indigomilkcap-*",
+        "dtmushroom-greencrackedrussula-*",
+        "dtmushroom-commonmorel-*",
+        "dtmushroom-chanterelle-*",
+        "dtmushroom-blacktrumpet-*",
+        "dtmushroom-almondmushroom-*",
+        "dtmushroom-fieldmushroom-*"
+    ],
+    "attributes": {
+        "mushroomProps": {
+            "dieWhenTempBelow": 0,
+            "dieAfterFruiting": true
+        },
+        "forageStatAffected": true,
+        "nutritionPropsWhenInMeal": {
+            "satietyByType": {
+                "dtmushroom-flyagaric-*": 75,
+                "dtmushroom-earthball-*": 150,
+                "dtmushroom-deathcap-*": 75,
+                "dtmushroom-elfinsaddle-*": 105,
+                "dtmushroom-jackolantern-*": 100,
+                "dtmushroom-devilbolete-*": 135,
+                "dtmushroom-bitterbolete-*": 135,
+                "dtmushroom-devilstooth-*": 75,
+                "dtmushroom-golddropmilkcap-*": 105,
+                "dtmushroom-funeralbell-*": 75,
+                "dtmushroom-pinkbonnet-*": 90
+            },
+            "foodcategory": "Vegetable",
+            "healthByType": {
+                "dtmushroom-flyagaric-*": 0,
+                "dtmushroom-earthball-*": 0,
+                "dtmushroom-deathcap-*": 0,
+                "dtmushroom-elfinsaddle-*": 0,
+                "dtmushroom-jackolantern-*": 0,
+                "dtmushroom-devilbolete-*": 0,
+                "dtmushroom-bitterbolete-*": 0,
+                "dtmushroom-devilstooth-*": 0,
+                "dtmushroom-golddropmilkcap-*": 0,
+                "dtmushroom-funeralbell-*": 0,
+                "dtmushroom-pinkbonnet-*": 0
+            }
+        },
+        "plantContainable": {
+            "smallContainer": {
+                "randomRotate": false,
+                "shape": {
+                    "base": "game:block/plant/mushroom/{mushroom}/flowerpot/normal*"
+                }
+            },
+            "largeContainer": {
+                "randomRotate": false,
+                "shape": {
+                    "base": "game:block/plant/mushroom/{mushroom}/planter/normal*"
+                }
+            }
+        }
+    },
+    "nutritionPropsByType": {
+        "dtmushroom-flyagaric-*": {
+            "saturation": 50,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "dtmushroom-earthball-*": {
+            "saturation": 100,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "dtmushroom-deathcap-*": {
+            "saturation": 50,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "dtmushroom-elfinsaddle-*": {
+            "saturation": 70,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "dtmushroom-jackolantern-*": {
+            "saturation": 65,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "dtmushroom-devilbolete-*": {
+            "saturation": 90,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "dtmushroom-bitterbolete-*": {
+            "saturation": 90,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "dtmushroom-devilstooth-*": {
+            "saturation": 50,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "dtmushroom-golddropmilkcap-*": {
+            "saturation": 70,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "dtmushroom-funeralbell-*": {
+            "saturation": 50,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        },
+        "dtmushroom-pinkbonnet-*": {
+            "saturation": 60,
+            "health": 0,
+            "foodcategory": "Vegetable"
+        }
+    },
+    "combustiblePropsByType": {
+        "*": {
+            "meltingPoint": 150,
+            "meltingDuration": 30,
+            "smeltedRatio": 1,
+            "smeltingType": "cook",
+            "smeltedStack": {
+                "type": "item",
+                "code": "shroomies:cookeddtmushroom-{mushroom}-charred"
+            },
+            "requiresContainer": false
+        }
+    },
+    "creativeinventory": {
+        "general": [ "*-normal" ],
+        "flora": [ "*-normal" ]
+    },
+    "drawtype": "JSON",
+    "shape": {
+        "base": "game:block/plant/mushroom/{mushroom}/{state}*"
+    },
+    "shapeInventory": {
+        "base": "game:item/food/mushroom/{mushroom}"
+    },
+    "doNotRenderAtLod2": true,
+    "randomDrawOffset": false,
+    "blockmaterial": "Plant",
+    "randomizeRotations": true,
+    "sideopaqueByType": {
+        "*-snow": {
+            "all": false,
+            "down": true
+        },
+        "*": { "all": false }
+    },
+    "sidesolid": {
+        "all": false
+    },
+    "replaceable": 3000,
+    "lightAbsorption": 0,
+    "resistance": 1.5,
+    "collisionbox": null,
+    "selectionBox": {
+        "x1": 0.125,
+        "y1": 0,
+        "z1": 0.125,
+        "x2": 0.875,
+        "y2": 0.25,
+        "z2": 0.875
+    },
+    "guiTransformByType": {
+        "*": {
+            "rotation": {
+                "x": -22,
+                "y": 107,
+                "z": 0
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0.2,
+                "z": 0.5
+            },
+            "scale": 3
+        }
+    },
+    "groundTransform": {
+        "origin": {
+            "x": 0.5,
+            "y": 0,
+            "z": 0.5
+        },
+        "scale": 5
+    },
+    "tpHandTransform": {
+        "translation": {
+            "x": -0.93,
+            "y": -0.17,
+            "z": -0.8
+        },
+        "rotation": {
+            "x": 15,
+            "y": -10,
+            "z": -114
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0.1,
+            "z": 0.5
+        },
+        "scale": 0.58
+    },
+    "sounds": {
+        "place": "game:block/plant",
+        "break": "game:block/plant",
+        "hit": "game:block/plant"
+    },
+    "rainPermeable": true,
+    "transitionableProps": [
+        {
+            "type": "Perish",
+            "freshHours": { "avg": 432 },
+            "transitionHours": { "avg": 72 },
+            "transitionedStack": {
+                "type": "item",
+                "code": "game:rot"
+            },
+            "transitionRatio": 1
+        }
+    ],
+    "materialDensity": 200,
+    "drops": [
+        {
+            "type": "block",
+            "code": "dtmushroom-{mushroom}-normal",
+            "quantity": {
+                "avg": 1,
+                "var": 0
+            }
+        }
+    ]
+}
